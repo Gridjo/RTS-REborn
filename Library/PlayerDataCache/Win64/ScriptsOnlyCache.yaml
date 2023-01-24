@@ -1,0 +1,3694 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - RTSEngine.Animation.StateMachineController
+    - RTSEngine.Animation.UnitAnimatorController
+    - RTSEngine.Attack.AttackManager
+    - RTSEngine.Attack.AttackObject
+    - RTSEngine.Audio.AudioListenerHandler
+    - RTSEngine.Audio.GameAudioManager
+    - RTSEngine.BuildingExtension.Border
+    - RTSEngine.BuildingExtension.BorderMinimapUIObject
+    - RTSEngine.BuildingExtension.BuildingManager
+    - RTSEngine.BuildingExtension.BuildingPlacement
+    - RTSEngine.BuildingExtension.BuildingPlacer
+    - RTSEngine.BuildingExtension.NavMeshBuildingObstacle
+    - RTSEngine.Cameras.MainCameraController
+    - RTSEngine.Controls.ControlType
+    - RTSEngine.Controls.GameControlsManager
+    - RTSEngine.Demo.BarracksDoorSystem
+    - RTSEngine.Demo.BuildingModelHeightModifier
+    - RTSEngine.Demo.FarmStateHandler
+    - RTSEngine.Demo.InfiniteRotation
+    - RTSEngine.Demo.MainMenu
+    - RTSEngine.Demo.OpenTreasureHandler
+    - RTSEngine.Demo.VehicleUnitDestroyHeightModifier
+    - RTSEngine.Determinism.InputManager
+    - RTSEngine.Determinism.TimeModifier
+    - RTSEngine.DevTools.Faction.FactionLimitSetter
+    - RTSEngine.DevTools.Health.AutoBuildingConstructor
+    - RTSEngine.DevTools.ResourceExtension.FactionResourceSetter
+    - RTSEngine.DevTools.Task.PendingTasksAutoCompleter
+    - RTSEngine.Effect.EffectObject
+    - RTSEngine.Effect.EffectObjectPool
+    - RTSEngine.Effect.FlashEffectObject
+    - RTSEngine.Entities.Building
+    - RTSEngine.Entities.Resource
+    - RTSEngine.Entities.ResourceBuilding
+    - RTSEngine.Entities.Static.StaticBuilding
+    - RTSEngine.Entities.Unit
+    - RTSEngine.EntityComponent.Builder
+    - RTSEngine.EntityComponent.BuildingAttack
+    - RTSEngine.EntityComponent.BuildingWorkerManager
+    - RTSEngine.EntityComponent.CarriableUnit
+    - RTSEngine.EntityComponent.Converter
+    - RTSEngine.EntityComponent.DropOffSource
+    - RTSEngine.EntityComponent.Healer
+    - RTSEngine.EntityComponent.Rallypoint
+    - RTSEngine.EntityComponent.ResourceCollector
+    - RTSEngine.EntityComponent.ResourceGenerator
+    - RTSEngine.EntityComponent.ResourceWorkerManager
+    - RTSEngine.EntityComponent.UnitAttack
+    - RTSEngine.EntityComponent.UnitCarrier
+    - RTSEngine.EntityComponent.UnitCreator
+    - RTSEngine.EntityComponent.UnitMovement
+    - RTSEngine.EntityComponent.UpgradeLauncher
+    - RTSEngine.Event.GlobalEventPublisher
+    - RTSEngine.Faction.FactionDefeatHandler
+    - RTSEngine.Faction.FactionTypeInfo
+    - RTSEngine.Game.GameManager
+    - RTSEngine.Health.BuildingHealth
+    - RTSEngine.Health.ResourceHealth
+    - RTSEngine.Health.UnitHealth
+    - RTSEngine.Lobby.Audio.LobbyAudioManager
+    - RTSEngine.Lobby.Logging.LobbyLogger
+    - RTSEngine.Lobby.UI.LobbyPlayerMessageUIHandler
+    - RTSEngine.Lobby.UI.LocalLobbyUIManager
+    - RTSEngine.Logging.GameLogger
+    - RTSEngine.Logging.PlayerMessageHandler
+    - RTSEngine.Minimap.Cameras.MinimapCameraController
+    - RTSEngine.Minimap.Cameras.MinimapCameraDirectHandler
+    - RTSEngine.Minimap.Cameras.MinimapCameraUIRenderTextureHandler
+    - RTSEngine.Minimap.Icons.MinimapIconManager
+    - RTSEngine.Minimap.Icons.MinimapUIIcon
+    - RTSEngine.Minimap.Notification.AttackMinimapNotificationManager
+    - RTSEngine.Model.EntityModelConnections
+    - RTSEngine.Model.ModelCacheManager
+    - RTSEngine.Model.NonEntityModel
+    - RTSEngine.Movement.CircularMovementFormationHandler
+    - RTSEngine.Movement.MovementFormationType
+    - RTSEngine.Movement.MovementManager
+    - RTSEngine.Movement.NavMeshAgentController
+    - RTSEngine.Movement.NavmeshMovementSystem
+    - RTSEngine.Movement.RowMovementFormationHandler
+    - RTSEngine.Multiplayer.Audio.MultiplayerAudioManager
+    - RTSEngine.Multiplayer.Logging.MultiplayerLogger
+    - RTSEngine.Multiplayer.Mirror.Game.MultiplayerFactionManager
+    - RTSEngine.Multiplayer.Mirror.Lobby.MultiplayerLobbyFactionSlot
+    - RTSEngine.Multiplayer.Mirror.Lobby.MultiplayerLobbyManager
+    - RTSEngine.Multiplayer.Mirror.Lobby.MultiplayerLobbyUIManager
+    - RTSEngine.Multiplayer.Mirror.MultiplayerManager
+    - RTSEngine.Multiplayer.Mirror.MultiplayerManagerUI
+    - RTSEngine.Multiplayer.Server.MultiplayerServerGameManager
+    - RTSEngine.Multiplayer.Server.MultiplayerServerManager
+    - RTSEngine.Multiplayer.UI.MultiplayePlayerMessageUIHandler
+    - RTSEngine.NPC.Attack.NPCAttackManager
+    - RTSEngine.NPC.Attack.NPCDefenseManager
+    - RTSEngine.NPC.BasicNPCManager
+    - RTSEngine.NPC.BuildingExtension.NPCBuildingConstructor
+    - RTSEngine.NPC.BuildingExtension.NPCBuildingCreator
+    - RTSEngine.NPC.BuildingExtension.NPCBuildingPlacer
+    - RTSEngine.NPC.BuildingExtension.NPCBuildingRegulatorData
+    - RTSEngine.NPC.BuildingExtension.NPCBuildingRegulatorDataInput
+    - RTSEngine.NPC.EntityComponent.NPCEntityComponentTracker
+    - RTSEngine.NPC.Event.NPCEventPublisher
+    - RTSEngine.NPC.NPCType
+    - RTSEngine.NPC.ResourceExtension.NPCCapacityResourceManager
+    - RTSEngine.NPC.ResourceExtension.NPCResourceCollector
+    - RTSEngine.NPC.ResourceExtension.NPCResourceManager
+    - RTSEngine.NPC.ResourceExtension.NPCTerritoryManager
+    - RTSEngine.NPC.UnitExtension.NPCUnitBehaviourManager
+    - RTSEngine.NPC.UnitExtension.NPCUnitCreator
+    - RTSEngine.NPC.UnitExtension.NPCUnitRegulatorData
+    - RTSEngine.NPC.UnitExtension.NPCUnitRegulatorDataInput
+    - RTSEngine.NPC.Upgrades.NPCUpgradeManager
+    - RTSEngine.ResourceExtension.DropOffTarget
+    - RTSEngine.ResourceExtension.ResourceManager
+    - RTSEngine.ResourceExtension.ResourceTypeInfo
+    - RTSEngine.Search.GridSearchHandler
+    - RTSEngine.Selection.Box.BoxSelector
+    - RTSEngine.Selection.BuildingSelection
+    - RTSEngine.Selection.EntitySelectionCollider
+    - RTSEngine.Selection.EntitySelectionRenderer
+    - RTSEngine.Selection.MouseSelector
+    - RTSEngine.Selection.ResourceSelection
+    - RTSEngine.Selection.SelectionCameraFollower
+    - RTSEngine.Selection.SelectionManager
+    - RTSEngine.Selection.UnitSelection
+    - RTSEngine.SinglePlayer.Lobby.LocalLobbyFactionSlot
+    - RTSEngine.SinglePlayer.Lobby.LocalLobbyManager
+    - RTSEngine.Task.EntityTasksQueueHandler
+    - RTSEngine.Task.PendingTasksHandler
+    - RTSEngine.Task.TaskManager
+    - RTSEngine.Terrain.TerrainAreaType
+    - RTSEngine.Terrain.TerrainManager
+    - RTSEngine.UI.EntityComponentPendingTaskUI
+    - RTSEngine.UI.EntityComponentTaskUI
+    - RTSEngine.UI.EntityComponentTaskUIAsset
+    - RTSEngine.UI.FPSUIHandler
+    - RTSEngine.UI.GameMenuUIHandler
+    - RTSEngine.UI.GamePlayerMessageUIHandler
+    - RTSEngine.UI.GameUIManager
+    - RTSEngine.UI.GameUITextDisplayManager
+    - RTSEngine.UI.HoverHealthBar
+    - RTSEngine.UI.HoverHealthBarUIHandler
+    - RTSEngine.UI.MultipleSelectionTaskPanelUIHandler
+    - RTSEngine.UI.MultipleSelectionTaskUI
+    - RTSEngine.UI.PeaceTimeUIHandler
+    - RTSEngine.UI.PendingTaskPanelUIHandler
+    - RTSEngine.UI.ResourceNotification
+    - RTSEngine.UI.ResourceNotificationUIHandler
+    - RTSEngine.UI.ResourcePanelUIHandler
+    - RTSEngine.UI.ResourceTaskUI
+    - RTSEngine.UI.SingleSelectionPanelUIHandler
+    - RTSEngine.UI.TaskPanelUIHandler
+    - RTSEngine.UI.TimeModifierUIHandler
+    - RTSEngine.UI.TooltipUIHandler
+    - RTSEngine.UnitExtension.UnitManager
+    - RTSEngine.Upgrades.EntityComponentUpgrade
+    - RTSEngine.Upgrades.EntityComponentUpgradeManager
+    - RTSEngine.Upgrades.EntityUpgrade
+    - RTSEngine.Upgrades.EntityUpgradeManager
+    Mirror.Components.dll:
+    - Mirror.Discovery.NetworkDiscovery
+    - Mirror.NetworkPingDisplay
+    Mirror.Transports.dll:
+    - Mirror.TelepathyTransport
+    - kcp2k.KcpTransport
+    Mirror.dll:
+    - Mirror.NetworkIdentity
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+  sceneClasses:
+    Assets/RTS Engine/Demo/Menu/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1448}
+    - Class: 114
+      Script: {instanceID: 1450}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1454}
+    - Class: 114
+      Script: {instanceID: 1476}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1682}
+    - Class: 114
+      Script: {instanceID: 1738}
+    - Class: 114
+      Script: {instanceID: 1740}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1822}
+    - Class: 114
+      Script: {instanceID: 1856}
+    - Class: 114
+      Script: {instanceID: 1866}
+    - Class: 114
+      Script: {instanceID: 1876}
+    - Class: 114
+      Script: {instanceID: 1994}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2274}
+    - Class: 114
+      Script: {instanceID: 2300}
+    - Class: 114
+      Script: {instanceID: 2358}
+    - Class: 114
+      Script: {instanceID: 2376}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2450}
+    - Class: 114
+      Script: {instanceID: 2474}
+    - Class: 114
+      Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2504}
+    - Class: 114
+      Script: {instanceID: 2576}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2760}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 2908}
+    - Class: 114
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 2946}
+    - Class: 114
+      Script: {instanceID: 3134}
+    - Class: 114
+      Script: {instanceID: 3144}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3246}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3328}
+    - Class: 114
+      Script: {instanceID: 3356}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3402}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3466}
+    - Class: 114
+      Script: {instanceID: 3490}
+    - Class: 114
+      Script: {instanceID: 3540}
+    - Class: 114
+      Script: {instanceID: 3574}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3790}
+    - Class: 114
+      Script: {instanceID: 3862}
+    - Class: 114
+      Script: {instanceID: 3868}
+    - Class: 114
+      Script: {instanceID: 3908}
+    - Class: 114
+      Script: {instanceID: 3976}
+    - Class: 114
+      Script: {instanceID: 3996}
+    - Class: 114
+      Script: {instanceID: 4022}
+    - Class: 114
+      Script: {instanceID: 4044}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4106}
+    - Class: 114
+      Script: {instanceID: 4154}
+    - Class: 114
+      Script: {instanceID: 4270}
+    - Class: 114
+      Script: {instanceID: 4288}
+    - Class: 114
+      Script: {instanceID: 4346}
+    - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4402}
+    - Class: 114
+      Script: {instanceID: 4444}
+    - Class: 114
+      Script: {instanceID: 4450}
+    - Class: 114
+      Script: {instanceID: 4490}
+    - Class: 114
+      Script: {instanceID: 4492}
+    - Class: 114
+      Script: {instanceID: 4502}
+    - Class: 114
+      Script: {instanceID: 4520}
+    - Class: 114
+      Script: {instanceID: 4610}
+    - Class: 114
+      Script: {instanceID: 4658}
+    - Class: 114
+      Script: {instanceID: 4704}
+    - Class: 114
+      Script: {instanceID: 4740}
+    - Class: 114
+      Script: {instanceID: 4782}
+    - Class: 114
+      Script: {instanceID: 4880}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 4928}
+    - Class: 114
+      Script: {instanceID: 4976}
+    - Class: 114
+      Script: {instanceID: 5050}
+    - Class: 114
+      Script: {instanceID: 5062}
+    - Class: 114
+      Script: {instanceID: 5070}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5184}
+    - Class: 114
+      Script: {instanceID: 5192}
+    - Class: 114
+      Script: {instanceID: 5204}
+    - Class: 114
+      Script: {instanceID: 5246}
+    - Class: 114
+      Script: {instanceID: 5298}
+    - Class: 114
+      Script: {instanceID: 5398}
+    - Class: 114
+      Script: {instanceID: 5406}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5558}
+    - Class: 114
+      Script: {instanceID: 5568}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5742}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5822}
+    - Class: 114
+      Script: {instanceID: 5864}
+    - Class: 114
+      Script: {instanceID: 5972}
+    - Class: 114
+      Script: {instanceID: 6042}
+    - Class: 114
+      Script: {instanceID: 18620}
+    - Class: 114
+      Script: {instanceID: 18652}
+    - Class: 114
+      Script: {instanceID: 18656}
+    - Class: 114
+      Script: {instanceID: 18662}
+    - Class: 114
+      Script: {instanceID: 18666}
+    - Class: 114
+      Script: {instanceID: 18670}
+    - Class: 114
+      Script: {instanceID: 18674}
+    - Class: 114
+      Script: {instanceID: 18678}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18690}
+    - Class: 114
+      Script: {instanceID: 18694}
+    - Class: 114
+      Script: {instanceID: 18698}
+    - Class: 114
+      Script: {instanceID: 18702}
+    - Class: 114
+      Script: {instanceID: 18706}
+    - Class: 114
+      Script: {instanceID: 19026}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 31544}
+    - Class: 114
+      Script: {instanceID: 31548}
+    - Class: 114
+      Script: {instanceID: 32796}
+    - Class: 114
+      Script: {instanceID: 32922}
+    - Class: 114
+      Script: {instanceID: 32930}
+    - Class: 114
+      Script: {instanceID: 32946}
+    - Class: 114
+      Script: {instanceID: 32950}
+    - Class: 114
+      Script: {instanceID: 32954}
+    - Class: 114
+      Script: {instanceID: 32958}
+    - Class: 114
+      Script: {instanceID: 32962}
+    - Class: 114
+      Script: {instanceID: 32966}
+    - Class: 114
+      Script: {instanceID: 32970}
+    - Class: 114
+      Script: {instanceID: 32974}
+    - Class: 114
+      Script: {instanceID: 32978}
+    - Class: 114
+      Script: {instanceID: 32982}
+    - Class: 114
+      Script: {instanceID: 32986}
+    - Class: 114
+      Script: {instanceID: 32992}
+    - Class: 114
+      Script: {instanceID: 32996}
+    - Class: 114
+      Script: {instanceID: 33004}
+    - Class: 114
+      Script: {instanceID: 33008}
+    - Class: 114
+      Script: {instanceID: 33012}
+    - Class: 114
+      Script: {instanceID: 33046}
+    - Class: 114
+      Script: {instanceID: 33050}
+    - Class: 114
+      Script: {instanceID: 33054}
+    - Class: 114
+      Script: {instanceID: 33340}
+    - Class: 114
+      Script: {instanceID: 63794}
+    - Class: 114
+      Script: {instanceID: 63826}
+    - Class: 114
+      Script: {instanceID: 63866}
+    - Class: 114
+      Script: {instanceID: 63906}
+    - Class: 114
+      Script: {instanceID: 63926}
+    - Class: 114
+      Script: {instanceID: 189342}
+    - Class: 114
+      Script: {instanceID: 189374}
+    - Class: 114
+      Script: {instanceID: 189402}
+    - Class: 114
+      Script: {instanceID: 189418}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RTS Engine/Demo/Scenes/demo_map/demo_map.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1448}
+    - Class: 114
+      Script: {instanceID: 1450}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1476}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1682}
+    - Class: 114
+      Script: {instanceID: 1738}
+    - Class: 114
+      Script: {instanceID: 1740}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1822}
+    - Class: 114
+      Script: {instanceID: 1856}
+    - Class: 114
+      Script: {instanceID: 1866}
+    - Class: 114
+      Script: {instanceID: 1994}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2274}
+    - Class: 114
+      Script: {instanceID: 2300}
+    - Class: 114
+      Script: {instanceID: 2358}
+    - Class: 114
+      Script: {instanceID: 2376}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2450}
+    - Class: 114
+      Script: {instanceID: 2474}
+    - Class: 114
+      Script: {instanceID: 2482}
+    - Class: 114
+      Script: {instanceID: 2504}
+    - Class: 114
+      Script: {instanceID: 2576}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2704}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2760}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 2908}
+    - Class: 114
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 3134}
+    - Class: 114
+      Script: {instanceID: 3144}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3246}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3328}
+    - Class: 114
+      Script: {instanceID: 3356}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3402}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3490}
+    - Class: 114
+      Script: {instanceID: 3540}
+    - Class: 114
+      Script: {instanceID: 3574}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3790}
+    - Class: 114
+      Script: {instanceID: 3862}
+    - Class: 114
+      Script: {instanceID: 3868}
+    - Class: 114
+      Script: {instanceID: 3908}
+    - Class: 114
+      Script: {instanceID: 3976}
+    - Class: 114
+      Script: {instanceID: 3996}
+    - Class: 114
+      Script: {instanceID: 4022}
+    - Class: 114
+      Script: {instanceID: 4044}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4106}
+    - Class: 114
+      Script: {instanceID: 4154}
+    - Class: 114
+      Script: {instanceID: 4270}
+    - Class: 114
+      Script: {instanceID: 4284}
+    - Class: 114
+      Script: {instanceID: 4288}
+    - Class: 114
+      Script: {instanceID: 4346}
+    - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4402}
+    - Class: 114
+      Script: {instanceID: 4444}
+    - Class: 114
+      Script: {instanceID: 4490}
+    - Class: 114
+      Script: {instanceID: 4492}
+    - Class: 114
+      Script: {instanceID: 4502}
+    - Class: 114
+      Script: {instanceID: 4520}
+    - Class: 114
+      Script: {instanceID: 4610}
+    - Class: 114
+      Script: {instanceID: 4658}
+    - Class: 114
+      Script: {instanceID: 4704}
+    - Class: 114
+      Script: {instanceID: 4740}
+    - Class: 114
+      Script: {instanceID: 4782}
+    - Class: 114
+      Script: {instanceID: 4880}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 4976}
+    - Class: 114
+      Script: {instanceID: 5050}
+    - Class: 114
+      Script: {instanceID: 5062}
+    - Class: 114
+      Script: {instanceID: 5070}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5184}
+    - Class: 114
+      Script: {instanceID: 5192}
+    - Class: 114
+      Script: {instanceID: 5204}
+    - Class: 114
+      Script: {instanceID: 5246}
+    - Class: 114
+      Script: {instanceID: 5298}
+    - Class: 114
+      Script: {instanceID: 5398}
+    - Class: 114
+      Script: {instanceID: 5406}
+    - Class: 114
+      Script: {instanceID: 5458}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5558}
+    - Class: 114
+      Script: {instanceID: 5568}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5742}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5822}
+    - Class: 114
+      Script: {instanceID: 5864}
+    - Class: 114
+      Script: {instanceID: 5972}
+    - Class: 114
+      Script: {instanceID: 6042}
+    - Class: 114
+      Script: {instanceID: 18620}
+    - Class: 114
+      Script: {instanceID: 18652}
+    - Class: 114
+      Script: {instanceID: 18656}
+    - Class: 114
+      Script: {instanceID: 18662}
+    - Class: 114
+      Script: {instanceID: 18666}
+    - Class: 114
+      Script: {instanceID: 18670}
+    - Class: 114
+      Script: {instanceID: 18674}
+    - Class: 114
+      Script: {instanceID: 18678}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18690}
+    - Class: 114
+      Script: {instanceID: 18694}
+    - Class: 114
+      Script: {instanceID: 18698}
+    - Class: 114
+      Script: {instanceID: 18702}
+    - Class: 114
+      Script: {instanceID: 18706}
+    - Class: 114
+      Script: {instanceID: 19026}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 32796}
+    - Class: 114
+      Script: {instanceID: 32922}
+    - Class: 114
+      Script: {instanceID: 32930}
+    - Class: 114
+      Script: {instanceID: 32946}
+    - Class: 114
+      Script: {instanceID: 32950}
+    - Class: 114
+      Script: {instanceID: 32954}
+    - Class: 114
+      Script: {instanceID: 32958}
+    - Class: 114
+      Script: {instanceID: 32962}
+    - Class: 114
+      Script: {instanceID: 32966}
+    - Class: 114
+      Script: {instanceID: 32970}
+    - Class: 114
+      Script: {instanceID: 32974}
+    - Class: 114
+      Script: {instanceID: 32978}
+    - Class: 114
+      Script: {instanceID: 32982}
+    - Class: 114
+      Script: {instanceID: 32986}
+    - Class: 114
+      Script: {instanceID: 32992}
+    - Class: 114
+      Script: {instanceID: 32996}
+    - Class: 114
+      Script: {instanceID: 33004}
+    - Class: 114
+      Script: {instanceID: 33008}
+    - Class: 114
+      Script: {instanceID: 33012}
+    - Class: 114
+      Script: {instanceID: 33046}
+    - Class: 114
+      Script: {instanceID: 33050}
+    - Class: 114
+      Script: {instanceID: 33054}
+    - Class: 114
+      Script: {instanceID: 33340}
+    - Class: 114
+      Script: {instanceID: 56920}
+    - Class: 114
+      Script: {instanceID: 57424}
+    - Class: 114
+      Script: {instanceID: 57426}
+    - Class: 114
+      Script: {instanceID: 57480}
+    - Class: 114
+      Script: {instanceID: 57482}
+    - Class: 114
+      Script: {instanceID: 57484}
+    - Class: 114
+      Script: {instanceID: 57486}
+    - Class: 114
+      Script: {instanceID: 57558}
+    - Class: 114
+      Script: {instanceID: 63794}
+    - Class: 114
+      Script: {instanceID: 63826}
+    - Class: 114
+      Script: {instanceID: 63866}
+    - Class: 114
+      Script: {instanceID: 63906}
+    - Class: 114
+      Script: {instanceID: 63926}
+    - Class: 114
+      Script: {instanceID: 63954}
+    - Class: 114
+      Script: {instanceID: 63966}
+    - Class: 114
+      Script: {instanceID: 63968}
+    - Class: 114
+      Script: {instanceID: 63970}
+    - Class: 114
+      Script: {instanceID: 63972}
+    - Class: 114
+      Script: {instanceID: 63974}
+    - Class: 114
+      Script: {instanceID: 189342}
+    - Class: 114
+      Script: {instanceID: 189364}
+    - Class: 114
+      Script: {instanceID: 189374}
+    - Class: 114
+      Script: {instanceID: 189402}
+    - Class: 114
+      Script: {instanceID: 189418}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MainMultiplayerMenu_Mirror.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1448}
+    - Class: 114
+      Script: {instanceID: 1450}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1454}
+    - Class: 114
+      Script: {instanceID: 1464}
+    - Class: 114
+      Script: {instanceID: 2032}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 3084}
+    - Class: 114
+      Script: {instanceID: 3122}
+    - Class: 114
+      Script: {instanceID: 3246}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3466}
+    - Class: 114
+      Script: {instanceID: 3534}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3630}
+    - Class: 114
+      Script: {instanceID: 3664}
+    - Class: 114
+      Script: {instanceID: 3962}
+    - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4450}
+    - Class: 114
+      Script: {instanceID: 4628}
+    - Class: 114
+      Script: {instanceID: 4704}
+    - Class: 114
+      Script: {instanceID: 4738}
+    - Class: 114
+      Script: {instanceID: 4928}
+    - Class: 114
+      Script: {instanceID: 5274}
+    - Class: 114
+      Script: {instanceID: 5410}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerHeadlessServerStarter_Mirror.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1742}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerLobbyMenu_Mirror.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1448}
+    - Class: 114
+      Script: {instanceID: 1450}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1454}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1682}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1856}
+    - Class: 114
+      Script: {instanceID: 1866}
+    - Class: 114
+      Script: {instanceID: 1994}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2274}
+    - Class: 114
+      Script: {instanceID: 2358}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2450}
+    - Class: 114
+      Script: {instanceID: 2576}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 2908}
+    - Class: 114
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 3070}
+    - Class: 114
+      Script: {instanceID: 3134}
+    - Class: 114
+      Script: {instanceID: 3144}
+    - Class: 114
+      Script: {instanceID: 3148}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3328}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3402}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3466}
+    - Class: 114
+      Script: {instanceID: 3540}
+    - Class: 114
+      Script: {instanceID: 3574}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3790}
+    - Class: 114
+      Script: {instanceID: 3908}
+    - Class: 114
+      Script: {instanceID: 3996}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4106}
+    - Class: 114
+      Script: {instanceID: 4154}
+    - Class: 114
+      Script: {instanceID: 4270}
+    - Class: 114
+      Script: {instanceID: 4288}
+    - Class: 114
+      Script: {instanceID: 4346}
+    - Class: 114
+      Script: {instanceID: 4444}
+    - Class: 114
+      Script: {instanceID: 4450}
+    - Class: 114
+      Script: {instanceID: 4492}
+    - Class: 114
+      Script: {instanceID: 4520}
+    - Class: 114
+      Script: {instanceID: 4606}
+    - Class: 114
+      Script: {instanceID: 4610}
+    - Class: 114
+      Script: {instanceID: 4704}
+    - Class: 114
+      Script: {instanceID: 4740}
+    - Class: 114
+      Script: {instanceID: 4880}
+    - Class: 114
+      Script: {instanceID: 4894}
+    - Class: 114
+      Script: {instanceID: 4928}
+    - Class: 114
+      Script: {instanceID: 5062}
+    - Class: 114
+      Script: {instanceID: 5070}
+    - Class: 114
+      Script: {instanceID: 5120}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5204}
+    - Class: 114
+      Script: {instanceID: 5246}
+    - Class: 114
+      Script: {instanceID: 5398}
+    - Class: 114
+      Script: {instanceID: 5406}
+    - Class: 114
+      Script: {instanceID: 5458}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5742}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5972}
+    - Class: 114
+      Script: {instanceID: 18620}
+    - Class: 114
+      Script: {instanceID: 18652}
+    - Class: 114
+      Script: {instanceID: 18656}
+    - Class: 114
+      Script: {instanceID: 18662}
+    - Class: 114
+      Script: {instanceID: 18666}
+    - Class: 114
+      Script: {instanceID: 18670}
+    - Class: 114
+      Script: {instanceID: 18674}
+    - Class: 114
+      Script: {instanceID: 18678}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18690}
+    - Class: 114
+      Script: {instanceID: 18694}
+    - Class: 114
+      Script: {instanceID: 18698}
+    - Class: 114
+      Script: {instanceID: 18702}
+    - Class: 114
+      Script: {instanceID: 18706}
+    - Class: 114
+      Script: {instanceID: 19026}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 189342}
+    - Class: 114
+      Script: {instanceID: 189374}
+    - Class: 114
+      Script: {instanceID: 189402}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/RTS Engine/Modules/Singleplayer/Scenes/SingleplayerLobbyMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1448}
+    - Class: 114
+      Script: {instanceID: 1450}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1454}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1682}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1856}
+    - Class: 114
+      Script: {instanceID: 1866}
+    - Class: 114
+      Script: {instanceID: 1994}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2274}
+    - Class: 114
+      Script: {instanceID: 2358}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2450}
+    - Class: 114
+      Script: {instanceID: 2576}
+    - Class: 114
+      Script: {instanceID: 2646}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 2908}
+    - Class: 114
+      Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 3070}
+    - Class: 114
+      Script: {instanceID: 3134}
+    - Class: 114
+      Script: {instanceID: 3144}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3246}
+    - Class: 114
+      Script: {instanceID: 3328}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3402}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3466}
+    - Class: 114
+      Script: {instanceID: 3540}
+    - Class: 114
+      Script: {instanceID: 3574}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3790}
+    - Class: 114
+      Script: {instanceID: 3908}
+    - Class: 114
+      Script: {instanceID: 3996}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4106}
+    - Class: 114
+      Script: {instanceID: 4154}
+    - Class: 114
+      Script: {instanceID: 4270}
+    - Class: 114
+      Script: {instanceID: 4288}
+    - Class: 114
+      Script: {instanceID: 4346}
+    - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4444}
+    - Class: 114
+      Script: {instanceID: 4450}
+    - Class: 114
+      Script: {instanceID: 4492}
+    - Class: 114
+      Script: {instanceID: 4520}
+    - Class: 114
+      Script: {instanceID: 4610}
+    - Class: 114
+      Script: {instanceID: 4704}
+    - Class: 114
+      Script: {instanceID: 4740}
+    - Class: 114
+      Script: {instanceID: 4880}
+    - Class: 114
+      Script: {instanceID: 4894}
+    - Class: 114
+      Script: {instanceID: 4928}
+    - Class: 114
+      Script: {instanceID: 5062}
+    - Class: 114
+      Script: {instanceID: 5070}
+    - Class: 114
+      Script: {instanceID: 5120}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5204}
+    - Class: 114
+      Script: {instanceID: 5246}
+    - Class: 114
+      Script: {instanceID: 5398}
+    - Class: 114
+      Script: {instanceID: 5406}
+    - Class: 114
+      Script: {instanceID: 5458}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 5742}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5972}
+    - Class: 114
+      Script: {instanceID: 18620}
+    - Class: 114
+      Script: {instanceID: 18652}
+    - Class: 114
+      Script: {instanceID: 18656}
+    - Class: 114
+      Script: {instanceID: 18662}
+    - Class: 114
+      Script: {instanceID: 18666}
+    - Class: 114
+      Script: {instanceID: 18670}
+    - Class: 114
+      Script: {instanceID: 18674}
+    - Class: 114
+      Script: {instanceID: 18678}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18690}
+    - Class: 114
+      Script: {instanceID: 18694}
+    - Class: 114
+      Script: {instanceID: 18698}
+    - Class: 114
+      Script: {instanceID: 18702}
+    - Class: 114
+      Script: {instanceID: 18706}
+    - Class: 114
+      Script: {instanceID: 19026}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 189342}
+    - Class: 114
+      Script: {instanceID: 189374}
+    - Class: 114
+      Script: {instanceID: 189402}
+    - Class: 114
+      Script: {instanceID: 189446}
+    - Class: 114
+      Script: {instanceID: 189448}
+    - Class: 114
+      Script: {instanceID: 189464}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BuildingPlacerRallypointCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 13a62479fee465b804da3b626bc61ba1
+    assemblyName: Mirror.Transports.dll
+    namespaceName: kcp2k
+    className: KcpTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 76ae428ab350a4c62d6d96a67e4d4f19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Terrain
+    className: TerrainManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7445a23a6ab32ef0fa3aab3b43a6c89f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkTeam
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f84b810c764d5a270da7c7591f2be2f1
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: MatchGUI
+  - hash:
+      serializedVersion: 2
+      Hash: ecd3ec54d50bca490ecd5ee5eb7ebdef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: FarmStateHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d95867ebef812a494b81a1c934f3bc15
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Pong
+    className: Ball
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Model
+    className: EntityModel
+  - hash:
+      serializedVersion: 2
+      Hash: 492bcb2d4cbb73afb9e618d49e4bdd82
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkTransformChild
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 69501abcda51721514ce989f617b052f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Basic
+    className: PlayerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 681b5f9be6f57e5a7b20908e503986d3
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror.Discovery
+    className: NetworkDiscoveryHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d5b51ed71f01b59bdcbf35a006ec8b5a
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 969b2375a6310999ae2f5c79daee0b98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Terrain
+    className: TerrainAreaType
+  - hash:
+      serializedVersion: 2
+      Hash: fa24b65e7a5295906a4cae6f29cdcbfe
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Tanks
+    className: Projectile
+  - hash:
+      serializedVersion: 2
+      Hash: 370cf85f41fdd57c170a6a0ea592489d
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: AdditiveLevelsNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0f247354951f04ddbeded0ae0027ee3f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkLobbyPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: d195b8ebb9be3d64f1da51f7ebbabd0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: SelectionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 10df494138a3a4b798a402d4f11d76f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Server
+    className: MultiplayerServerManager
+  - hash:
+      serializedVersion: 2
+      Hash: e43837876131416c89a3cfc1a05620ef
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: PlayerScore
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d6dfa51a38642a055b074824e5a3958d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Health
+    className: BuildingHealth
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: f7bbe0509e49b1c524a98dd32f8807a1
+    assemblyName: Mirror.Transports.dll
+    namespaceName: Mirror
+    className: LatencySimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LobbyUITextDisplayManager
+  - hash:
+      serializedVersion: 2
+      Hash: 211497b09da6b747932f1cf818da7919
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Game
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8940b9c1a6babf63ce256b417e76030d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Upgrades
+    className: EntityUpgrade
+  - hash:
+      serializedVersion: 2
+      Hash: d937a28f8c38db8049b744c37398fa0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: Converter
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8617aadb248da95f2695ca5669494400
+    assemblyName: Mirror.Transports.dll
+    namespaceName: Mirror
+    className: TelepathyTransport
+  - hash:
+      serializedVersion: 2
+      Hash: d5b51ed71f01b59bdcbf35a006ec8b5a
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 314e23eec67b8715d6e57ad385d05ba0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
+      Hash: 73cb002a4be733be7865518ab3770122
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: EntitySelectionRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 996ab6f63c29d8bd7edbdf0f4d6c46a8
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkStatistics
+  - hash:
+      serializedVersion: 2
+      Hash: 5085c149ae898c11398927898b806b9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Mirror.Game
+    className: MultiplayerFactionManager
+  - hash:
+      serializedVersion: 2
+      Hash: e684da0450fc879b2dc96948e058021d
+    assemblyName: Mirror.Authenticators.dll
+    namespaceName: Mirror.Authenticators
+    className: TimeoutAuthenticator
+  - hash:
+      serializedVersion: 2
+      Hash: 1fc15c1b2f64fedcdb0467558c4f748e
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: MultiSceneNetManager
+  - hash:
+      serializedVersion: 2
+      Hash: 99348c663059b1cb24ec5da4e330d64e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Entities
+    className: Unit
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a8d509e9bdb01ae3b7e3c45c480fa2b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BuildingPlaceAroundCondition
+  - hash:
+      serializedVersion: 2
+      Hash: b4f5b310d99119533fe0861635f2f96f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Chat
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 56bb01577c3285909a17156b8dacc385
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: DropOffSource
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 9eab75a62d67d5b85465dc48db648384
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.CCU
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Event
+    className: GlobalEventPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 819c9654f617408fe72804743a3eeed4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: Healer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Upgrades
+    className: EntityUpgradeManager
+  - hash:
+      serializedVersion: 2
+      Hash: a62ea36f18a166cb634a96cbb54bc523
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: BarracksDoorSystem
+  - hash:
+      serializedVersion: 2
+      Hash: d17f8a6c5382f5422b60b87552ec75d1
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: ShootingTankBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 80f05869fd277f2759eaa5684e01e294
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: BuildingModelHeightModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 19979dcd2d56dc5da71c441ddd5e73a0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.CCU
+    className: Monster
+  - hash:
+      serializedVersion: 2
+      Hash: 4abc18fe215c5762acee5bf2231a1459
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: UpgradeLauncher
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 26a9cb706e242af6b5a776ad795b766f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Search
+    className: GridSearchHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 50d70dd806e47c0df47520f641e40812
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.ResourceExtension
+    className: ResourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3fe74dd3b211760c4ed03510eafabc55
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: RoomGUI
+  - hash:
+      serializedVersion: 2
+      Hash: bb22e14052321c02d95d52f52ec9586f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Benchmark
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: d6f5bdcd02f2574ceb326a7a9ef54595
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: ResourceGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: be60d8043d6fe4d7e59ddee7a94f1494
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.ResourceExtension
+    className: DropOffTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 58620edf706f2a1c9751dacb5ff4085b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Determinism
+    className: InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ae981276cbe2dc3b258b13f10fd0c96
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Benchmark
+    className: BenchmarkNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: LookAtMainCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 621ab68153f23b72d33be97388e583ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Audio
+    className: AudioListenerHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 160ce703a93d5453864b5ffd0359735b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Movement
+    className: RowMovementFormationHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f5763415ffcb37f6278091eb8b77a954
+    assemblyName: SimpleWebTransport.dll
+    namespaceName: Mirror.SimpleWeb
+    className: SimpleWebTransport
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 5bad47ae3a277698c9fca1c7f8437803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.ResourceExtension
+    className: ResourceTypeInfo
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 5085c149ae898c11398927898b806b9c
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 78750c0793edd1174754553cd3e72119
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: Rallypoint
+  - hash:
+      serializedVersion: 2
+      Hash: ecbe9c0e18ce4ec90daad433d4823fe5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5085c149ae898c11398927898b806b9c
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkMatch
+  - hash:
+      serializedVersion: 2
+      Hash: bf59c58c82fdaf3fa0615258d88242df
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: NetworkRoomManagerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.dll
+    namespaceName: Mirror
+    className: NetworkStartPosition
+  - hash:
+      serializedVersion: 2
+      Hash: a75dddbc7d83290077a96c78956c0b4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Lobby
+    className: LobbyUIManagerBase
+  - hash:
+      serializedVersion: 2
+      Hash: 5071eedf7a18e3e85b41c0594ad2c036
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: MatchNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: cd97d18363d75e401bdb33e2c3a3ddaa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Lobby.Audio
+    className: LobbyAudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: a63bfe3760c0236e9eb69501b25685ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.UI
+    className: MultiplayePlayerMessageUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 7eeb915d8b23275021ae492c1aa517d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Mirror.Lobby
+    className: MultiplayerLobbyFactionSlot
+  - hash:
+      serializedVersion: 2
+      Hash: c6d55aa67f0399a4ce1ef1e9e468b01f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: Border
+  - hash:
+      serializedVersion: 2
+      Hash: d8d9cd1a9742f2c78f5a0af739bbc656
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: ResourceWorkerManager
+  - hash:
+      serializedVersion: 2
+      Hash: a75dddbc7d83290077a96c78956c0b4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Mirror.Lobby
+    className: MultiplayerLobbyUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1c520ea290124f8419cda0944db9a8fc
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror.Experimental
+    className: NetworkLerpRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: TeamInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 3bf268d04ee1e5ba78927f3698dadf09
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkLobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: EntitySelectionCollider
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Movement
+    className: NavmeshMovementSystem
+  - hash:
+      serializedVersion: 2
+      Hash: cd85cd0021d4c0ab017ad69b7f3332b5
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: CanvasController
+  - hash:
+      serializedVersion: 2
+      Hash: c0d59eecc226ec1d4de573ec0b1479bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Health
+    className: UnitHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 7deadf407d31ec8c4949e0b61386c0cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Entities.Static
+    className: StaticBuilding
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: NavMeshBuildingObstacle
+  - hash:
+      serializedVersion: 2
+      Hash: 81d22489120c4601d856b95e31a946cf
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.SnapshotInterpolationDemo
+    className: ClientCube
+  - hash:
+      serializedVersion: 2
+      Hash: 671daf53b19ae871162ad5bc911bf756
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: AdditiveNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: d8d9cd1a9742f2c78f5a0af739bbc656
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: BuildingWorkerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9c215ccf8a582b0adad8d45fa450d638
+    assemblyName: Mirror.Authenticators.dll
+    namespaceName: Mirror.Authenticators
+    className: DeviceAuthenticator
+  - hash:
+      serializedVersion: 2
+      Hash: 7d0d8a6bda0270f7769bff191dd674bc
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Pong
+    className: NetworkManagerPong
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 645c501251eccc948734bc7fcda3cd3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Attack
+    className: FactionEntityAttackTargetGetter
+  - hash:
+      serializedVersion: 2
+      Hash: cf95add559be53ae8bfdfcea86c5a18f
+    assemblyName: MultiplexTransport.dll
+    namespaceName: Mirror
+    className: MultiplexTransport
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 26d5c4d3aa5e668e2a134fd27c936004
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: CellGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Upgrades
+    className: EntityComponentUpgradeManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: MatchInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 5da90d32a73e8a6dcd25898d7192afc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Server
+    className: MultiplayerServerGameManager
+  - hash:
+      serializedVersion: 2
+      Hash: f41fe2640003f5cbe45a200f43f4027c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Attack
+    className: AttackObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 05b8ae749ecc11894994d3f7f779382c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: UnitAttack
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 5085c149ae898c11398927898b806b9c
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 9e00133549897857ed7ddb30342642ba
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: DistanceInterestManagementCustomRange
+  - hash:
+      serializedVersion: 2
+      Hash: e229ce2ca02b83e9b7958612aeff667f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror.Discovery
+    className: NetworkDiscovery
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Tanks
+    className: FaceCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 752a42f07d82e29f5af1280f47179f15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Logging
+    className: MultiplayerLogger
+  - hash:
+      serializedVersion: 2
+      Hash: fc67f14ea89c506f4f65b0b93f858139
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: PlayerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 9c284d05432de6344254221d45d14bf2
+    assemblyName: Mirror.dll
+    namespaceName: Mirror
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 39bc6c56c9d3b786119d800a173004c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Entities
+    className: ResourceBuilding
+  - hash:
+      serializedVersion: 2
+      Hash: 4132ee9a8b5c5571ec51e757b626830f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.SyncDir
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 51e256865d7719fddf42b97dc0d5aabf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Cameras
+    className: MainCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: f8f6cab9544744be7d38eeda6ee654aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Determinism
+    className: TimeModifier
+  - hash:
+      serializedVersion: 2
+      Hash: cb47ebf7649e0c11d54ce28b9635a3a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: EntityComponentTaskUIAsset
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: f2df2de9e2590b0510d71145e8c70b07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Mirror
+    className: MultiplayerManager
+  - hash:
+      serializedVersion: 2
+      Hash: e92c5ad4eae9d66206f00fd2fbaa0649
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Movement
+    className: MovementManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2d8de7e3735f6ffdc5910f900719cf45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Effect
+    className: EffectObject
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Controls
+    className: GameControlsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Effect
+    className: EffectObjectPool
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: c5bf757e45517373f48138682b6cc89f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: ZoneHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d95867ebef812a494b81a1c934f3bc15
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Pong
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 497653a57efa0c14eebd6f03712eed3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: ResourceCollector
+  - hash:
+      serializedVersion: 2
+      Hash: b3651e479438b3033efc9fe2124e85e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Animation
+    className: UnitAnimatorController
+  - hash:
+      serializedVersion: 2
+      Hash: d5b51ed71f01b59bdcbf35a006ec8b5a
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 314e23eec67b8715d6e57ad385d05ba0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
+      Hash: 6bca8cc8b24965398fd5f3eb56c0c867
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Chat
+    className: ChatAuthenticator
+  - hash:
+      serializedVersion: 2
+      Hash: 99d5ceb01959852328c6fab8bb22c7b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: UnitCarrier
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 68b9c9351f6da675ec46adbe963d3904
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Health
+    className: ResourceHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 16fe86f17e5212378bbb2ef68b52f7a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Model
+    className: NonEntityModel
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3b49585c7959aa1e6adff9d1fb25096b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: VehicleUnitDestroyHeightModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 9f9957bfc0355d02a6d0f9fc427e3982
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Basic
+    className: CanvasUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: SceneInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 5085c149ae898c11398927898b806b9c
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 47dd1d4cabb05d1185f4f32364d4a9b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC
+    className: NPCType
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: GameUITextDisplayManager
+  - hash:
+      serializedVersion: 2
+      Hash: 67d6d53530634cd2e252f8b19d4f293f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.RigidbodyPhysics
+    className: AddForce
+  - hash:
+      serializedVersion: 2
+      Hash: 69b80ff778f9e65b31965fdc2179613f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Task
+    className: PendingTasksHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e45a733ac31e080bd406e5dc6a8c314e
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Common
+    className: FPS
+  - hash:
+      serializedVersion: 2
+      Hash: f61c040f6d2615f5633257d6ead0921d
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: DistanceInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 160ce703a93d5453864b5ffd0359735b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Movement
+    className: CircularMovementFormationHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 90998085180e6c5c59613cf2c1b9070a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Entities
+    className: Building
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 92faca3d8771d7dde72166d32a393af5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Model
+    className: ModelCacheManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ee5a45678f80965f4bc47d1e1550bfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: UnitSelection
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c9ae47897c093a4310842745f36de59c
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Tanks
+    className: Tank
+  - hash:
+      serializedVersion: 2
+      Hash: 707f25d0fe78f722c924331533a03b1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Mirror.Lobby
+    className: MultiplayerLobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 549ab8598705cab7dd97da5b32c1f3a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: UnitMovement
+  - hash:
+      serializedVersion: 2
+      Hash: cd97d18363d75e401bdb33e2c3a3ddaa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Audio
+    className: MultiplayerAudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: b971fdf92af251e6c2beda45389b743e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: IdleUnitSelector
+  - hash:
+      serializedVersion: 2
+      Hash: e3b37e42e2adda0b92f4b82fefb00e71
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PlayerScore
+  - hash:
+      serializedVersion: 2
+      Hash: 080cc8396486649f55c74784b74c79e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Entities
+    className: Resource
+  - hash:
+      serializedVersion: 2
+      Hash: 314e23eec67b8715d6e57ad385d05ba0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
+      Hash: d5b51ed71f01b59bdcbf35a006ec8b5a
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveScenes
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 19979dcd2d56dc5da71c441ddd5e73a0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Benchmark
+    className: MonsterMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 2a3d31737edb49db6548eb02eb4740bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Multiplayer.Mirror
+    className: MultiplayerManagerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 74fcf02452d6175d04617071b96de486
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Task
+    className: EntityTasksQueueHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e1cb065387a91d0d5f04a24ea55a3cf5
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkTransformReliable
+  - hash:
+      serializedVersion: 2
+      Hash: 76922548db0f50697f75582b6519d9eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UnitExtension
+    className: UnitManager
+  - hash:
+      serializedVersion: 2
+      Hash: 306f6c6830d6725abf0598650905dcd4
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: GUIConsole
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 800d5232127e2d4db254cbcd9eaad793
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Chat
+    className: LoginUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Movement
+    className: NavMeshAgentController
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: e3ff266be754961097720da52d05ed74
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: Portal
+  - hash:
+      serializedVersion: 2
+      Hash: 752a42f07d82e29f5af1280f47179f15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Lobby.Logging
+    className: LobbyLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: PhysicsSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 165adef002bbebd29b73375b9f23bc9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BuildingManager
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 3461ad527148252ecbf83b7a0e834478
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: ModelHeightModifierBase
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Logging
+    className: PlayerMessageHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 5ee5a45678f80965f4bc47d1e1550bfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: ResourceSelection
+  - hash:
+      serializedVersion: 2
+      Hash: cca6d49f8ffda5dfcd3f682313db8fa0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.SnapshotInterpolationDemo
+    className: ServerCube
+  - hash:
+      serializedVersion: 2
+      Hash: 5085c149ae898c11398927898b806b9c
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: PlayerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 9883485603c622419d286220bdefe295
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: CarriableUnit
+  - hash:
+      serializedVersion: 2
+      Hash: 6244f6646d57c6175e12158287be87fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Movement
+    className: MovementFormationType
+  - hash:
+      serializedVersion: 2
+      Hash: 752a42f07d82e29f5af1280f47179f15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Logging
+    className: LoggerBase
+  - hash:
+      serializedVersion: 2
+      Hash: a63bfe3760c0236e9eb69501b25685ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Lobby.UI
+    className: LobbyPlayerMessageUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ed948062f0294d212604d5c7f66fa867
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: UnitCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 62b4928721e2464278192c68e2a6a028
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Audio
+    className: GameAudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 364ed8fbd9f9a41483118dffd339a261
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: MouseSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 492bcb2d4cbb73afb9e618d49e4bdd82
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: bdea57bb9af4a575c566de4b5a678d6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Upgrades
+    className: EntityComponentUpgrade
+  - hash:
+      serializedVersion: 2
+      Hash: 0f247354951f04ddbeded0ae0027ee3f
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkRoomPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: d3e9c223c0e0e2fa58c491dff2f04e72
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: Reward
+  - hash:
+      serializedVersion: 2
+      Hash: 6652c8e54211b35e724b7f0df716771a
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleMatch
+    className: MatchController
+  - hash:
+      serializedVersion: 2
+      Hash: 2cb659b4a44eec44150c5ae0f4e9fcbf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BuildingPlacer
+  - hash:
+      serializedVersion: 2
+      Hash: 752ca111874f338077b8ced87df3f245
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PhysicsCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 3b799886e566bb0a66de22c215817901
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkPingDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 9c284d05432de6344254221d45d14bf2
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Chat
+    className: ChatNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5bcc6678a36f1938f19c02e9916c5f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Task
+    className: TaskManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 89b09b5ffb25a6bef0ade2160bb9f2cf
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.CCU
+    className: CCUNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: d54347e44f5f47daba3a817cf2d1fc54
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Basic
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 9c284d05432de6344254221d45d14bf2
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Basic
+    className: BasicNetManager
+  - hash:
+      serializedVersion: 2
+      Hash: 35643f4001faea1b762b780d770b105e
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror.Experimental
+    className: NetworkRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5ee5a45678f80965f4bc47d1e1550bfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: BuildingSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 5a03e8204c0117e95ab251326cd6bf74
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.AdditiveLevels
+    className: FadeInOut
+  - hash:
+      serializedVersion: 2
+      Hash: 13a8fbb59b05c9a8bdb00befac5b0089
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Model
+    className: EntityModelConnections
+  - hash:
+      serializedVersion: 2
+      Hash: 2794388f422014fa80b187c00787d598
+    assemblyName: Mirror.dll
+    namespaceName: Mirror
+    className: NetworkIdentity
+  - hash:
+      serializedVersion: 2
+      Hash: 6e02cb84a046f7905b5c925b0b530326
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: RemoteStatistics
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7257163c3770610b666a25f6d346dc8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Faction
+    className: FactionTypeInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 517f79080ac81b60c9610c39f47f4ab9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BuildingPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: d3e9c223c0e0e2fa58c491dff2f04e72
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: Reward
+  - hash:
+      serializedVersion: 2
+      Hash: b1c80442d12023d67ba2d731ca3f77c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Animation
+    className: StateMachineController
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 39a8ef8b76edba04feeb37f07237f2a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: InfiniteRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 3bf268d04ee1e5ba78927f3698dadf09
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkRoomManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: GameUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: bd0687805607436cc6f4cdfead33c281
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Attack
+    className: AttackManager
+  - hash:
+      serializedVersion: 2
+      Hash: 28f0b7dc4aa4a32304979bbc0342c3c3
+    assemblyName: Mirror.dll
+    namespaceName: Mirror
+    className: NetworkManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: e261274cc1b3eab9f65f3c57169c19fa
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror.Experimental
+    className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: cf88009ab7db4b3ae90b7724325819b4
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: f5c411aeba8eb3955b427051af08fac1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Effect
+    className: FlashEffectObject
+  - hash:
+      serializedVersion: 2
+      Hash: 42c23c00172ea5e8f8daf9e4f19fe4c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: Builder
+  - hash:
+      serializedVersion: 2
+      Hash: 603a4daad0186fcf07fe2461937ef308
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.EntityComponent
+    className: BuildingAttack
+  - hash:
+      serializedVersion: 2
+      Hash: 752a42f07d82e29f5af1280f47179f15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Logging
+    className: GameLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: PhysicsSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 3618c1889fab43585d63e0ee59c37c96
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.Chat
+    className: ChatUI
+  - hash:
+      serializedVersion: 2
+      Hash: 6e077488258aae2088ada32dee5eb275
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Demo
+    className: OpenTreasureHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cea76a9cbe8908be837cd602cf56693c
+    assemblyName: Mirror.Authenticators.dll
+    namespaceName: Mirror.Authenticators
+    className: BasicAuthenticator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5774344e6f3fc34a4638487f6486e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BorderObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0e68c7511d0bb7746e68316200e21bb0
+    assemblyName: Mirror.Components.dll
+    namespaceName: Mirror
+    className: SpatialHashingInterestManagement
+  - hash:
+      serializedVersion: 2
+      Hash: 314e23eec67b8715d6e57ad385d05ba0
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.MultipleAdditiveScenes
+    className: RandomColor
+  - hash:
+      serializedVersion: 2
+      Hash: 0f247354951f04ddbeded0ae0027ee3f
+    assemblyName: Mirror.Examples.dll
+    namespaceName: Mirror.Examples.NetworkRoom
+    className: NetworkRoomPlayerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 93296cec22a37ef3b7ec0a7d06d745e9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Controls
+    className: ControlType
+  - hash:
+      serializedVersion: 2
+      Hash: cadc58b27e1a03d5c11a42eda5c56841
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Search
+    className: SearchSphereObstacle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC
+    className: BasicNPCManager
+  - hash:
+      serializedVersion: 2
+      Hash: 31c799b2fe9f8397daa7e2e4453256ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.UnitExtension
+    className: NPCUnitCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 2ddbee3e5d49084c999455bb63feaa69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.UnitExtension
+    className: NPCUnitBehaviourManager
+  - hash:
+      serializedVersion: 2
+      Hash: 32e72191e6bfdd5f62d49c867a4a7fe6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.BuildingExtension
+    className: NPCBuildingCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 4c066e72b2cb2becc3209ac9656c34dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.BuildingExtension
+    className: NPCBuildingPlacer
+  - hash:
+      serializedVersion: 2
+      Hash: f8aad09f249081f2b9a4ce675f75cc6d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.BuildingExtension
+    className: NPCBuildingConstructor
+  - hash:
+      serializedVersion: 2
+      Hash: e543972cc6e7f5aee44119692f6bcf67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.Upgrades
+    className: NPCUpgradeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 27107d7d7353ae8eef3fee3db263048c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.Attack
+    className: NPCAttackManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8460de52b06bc799ac016bdca95b1974
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.Attack
+    className: NPCDefenseManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1ff96d1dd006bdc8fb926717d4053627
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.ResourceExtension
+    className: NPCResourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 11ad7096a84e82893c0a906f8374745f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.ResourceExtension
+    className: NPCResourceCollector
+  - hash:
+      serializedVersion: 2
+      Hash: 0ebf40643f3eeb53de7efa637817def8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.ResourceExtension
+    className: NPCTerritoryManager
+  - hash:
+      serializedVersion: 2
+      Hash: d4494ef8f1419506cc77d9b93b3c23fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.ResourceExtension
+    className: NPCCapacityResourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 39d2f021b1dc5cd369589107cb657e38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.Event
+    className: NPCEventPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 39d2f021b1dc5cd369589107cb657e38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.EntityComponent
+    className: NPCEntityComponentTracker
+  - hash:
+      serializedVersion: 2
+      Hash: c15882575ea31c742d1fcb17b85b72be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.UnitExtension
+    className: NPCUnitRegulatorDataInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5db22cf67b520a77411ca32fa57042e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.BuildingExtension
+    className: NPCBuildingRegulatorDataInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Cameras
+    className: MinimapCameraDirectHandler
+  - hash:
+      serializedVersion: 2
+      Hash: fe933dbdc2abb1039d02f5ce23921d15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Faction
+    className: FactionDefeatHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 419052f73860f4020309436d5889ac0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.DevTools.Task
+    className: PendingTasksAutoCompleter
+  - hash:
+      serializedVersion: 2
+      Hash: 510a1f31134ce6174fbda5582cfde5f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: GameMenuUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af645ba4254f7426f13efae2656c75a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: HoverHealthBarUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 88534e822044194c57a2fd5b89e9a99d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: PeaceTimeUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 7e4b49eea54914030f79a3a5cb452f0e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: TaskPanelUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3ce7321c306681deec65e96015d4781a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: PendingTaskPanelUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 911c23bd1e2fbe86bde3d8f8bc9e1e89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: SingleSelectionPanelUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 72f43301f6e5a6692f6600ebbf342824
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: MultipleSelectionTaskPanelUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a63bfe3760c0236e9eb69501b25685ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: GamePlayerMessageUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 88534e822044194c57a2fd5b89e9a99d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: TooltipUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: db80cfa636d8013daa6c28a8f2028fbf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: ResourcePanelUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 496670eb9e077b4b1338a9a543a82196
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: TimeModifierUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 419052f73860f4020309436d5889ac0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.DevTools.Health
+    className: AutoBuildingConstructor
+  - hash:
+      serializedVersion: 2
+      Hash: ed9235a18a922a0e6b0980a8e0ae7d79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.DevTools.Faction
+    className: FactionLimitSetter
+  - hash:
+      serializedVersion: 2
+      Hash: 285ea102358064235a42221a685505cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection.Box
+    className: BoxSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 9fc06b59f6e2c7c5eccce5a5ec361ac2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: SelectionCameraFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 79053247a612c24138d288f48421323a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.DevTools.ResourceExtension
+    className: FactionResourceSetter
+  - hash:
+      serializedVersion: 2
+      Hash: 6e2fa68bfd60a416235522e94c4695f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Cameras
+    className: MinimapCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 51b9ef4811df67b3a43abd58026aa80d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Icons
+    className: MinimapIconManager
+  - hash:
+      serializedVersion: 2
+      Hash: 04ba9720f1a95257ab7567bd80659449
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Notification
+    className: AttackMinimapNotificationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Cameras
+    className: MinimapCameraUIRenderTextureHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d644ec662bfcf24bd1690b07977b0163
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: FPSUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3e243691408a5346fec84a1fb850edc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: ResourceNotificationUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c2118d052a517ec55120d86869f79c65
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: ResourceTaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: 89199d982e08b89859ece279f79625bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: MultipleSelectionTaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: 750e15a0df12812566a052f99fc705d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: EntityComponentPendingTaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: ca910f344cf61e78b3f04492ad1faa3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: EntityComponentTaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: c276a2ac1eb23b30c48eeb0fa6c237db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Icons
+    className: MinimapUIIcon
+  - hash:
+      serializedVersion: 2
+      Hash: 3beeff39e323c4e80b3dd1766eb1bd62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.UnitExtension
+    className: NPCUnitRegulatorData
+  - hash:
+      serializedVersion: 2
+      Hash: 9bc8e754cd4b90992948b07335f27132
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Minimap.Icons
+    className: MinimapIcon
+  - hash:
+      serializedVersion: 2
+      Hash: 2f678e29bd8b9e748191c70cd6da80df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC
+    className: NPCRegulatorData
+  - hash:
+      serializedVersion: 2
+      Hash: af31086bd048515c305af6912f89449d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: ResourceNotification
+  - hash:
+      serializedVersion: 2
+      Hash: eeea328cf675e1f21bf49f55097dd25e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.BuildingExtension
+    className: BorderMinimapUIObject
+  - hash:
+      serializedVersion: 2
+      Hash: 2d28075bd58f247390c525af5476acc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.NPC.BuildingExtension
+    className: NPCBuildingRegulatorData
+  - hash:
+      serializedVersion: 2
+      Hash: e8dfd98ba859e530efb001b2b06aec23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.UI
+    className: HoverHealthBar
+  - hash:
+      serializedVersion: 2
+      Hash: f3837c7620198ee6a850787db63139ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Selection
+    className: SelectionGroupHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 53136607f35286f9b3109ab37bf5cbf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.SinglePlayer.Lobby
+    className: LocalLobbyFactionSlot
+  - hash:
+      serializedVersion: 2
+      Hash: ccddccbe41c01f8db7ef0b8c5fb98578
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.SinglePlayer.Lobby
+    className: LocalLobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 419052f73860f4020309436d5889ac0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.DevTools
+    className: DevToolComponentBase
+  - hash:
+      serializedVersion: 2
+      Hash: a75dddbc7d83290077a96c78956c0b4b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RTSEngine.Lobby.UI
+    className: LocalLobbyUIManager
+  platform: 19
+  scenePathNames:
+  - Assets/RTS Engine/Demo/Menu/MainMenu.unity
+  - Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerHeadlessServerStarter_Mirror.unity
+  - Assets/RTS Engine/Modules/Singleplayer/Scenes/SingleplayerLobbyMenu.unity
+  - Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MainMultiplayerMenu_Mirror.unity
+  - Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerLobbyMenu_Mirror.unity
+  - Assets/RTS Engine/Demo/Scenes/demo_map/demo_map.unity
+  playerPath: D:/build4/My project (1).exe
