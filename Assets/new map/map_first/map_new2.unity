@@ -2662,7 +2662,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingPositionYOffset: 0.1
   terrainMaxDistance: 1
-  placableTerrainAreas: []
+  placableTerrainAreas:
+  - {fileID: 11400000, guid: 20a4f79a52f05fa4783732d0ff0e9acf, type: 2}
+  - {fileID: 11400000, guid: 37d2dffab9a31a84c81d764228531ba7, type: 2}
   ignoreTerrainAreas: []
   placeBuildingAudio:
     fetchType: 0
