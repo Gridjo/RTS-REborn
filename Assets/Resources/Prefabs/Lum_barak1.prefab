@@ -119,6 +119,18 @@ MonoBehaviour:
     obj: {fileID: 0}
     indexKey: -1
     entity: {fileID: 0}
+  - status: 0
+    obj: {fileID: 0}
+    indexKey: -1
+    entity: {fileID: 0}
+  - status: 0
+    obj: {fileID: 0}
+    indexKey: -1
+    entity: {fileID: 0}
+  - status: 0
+    obj: {fileID: 0}
+    indexKey: -1
+    entity: {fileID: 0}
   forcedTerrainAreas: []
 --- !u!114 &954259077416612381
 MonoBehaviour:
@@ -136,11 +148,16 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 1
+    y: 0
   creationTasks:
   - taskTitle: 'Create Unit: Lum_lite'
     taskUI: {fileID: 11400000, guid: b940c57c25089be4db0aef9c5d592de7, type: 2}
-    requiredResources: []
+    requiredResources:
+    - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+      value:
+        amount: 100
+        capacity: 0
+      nonConsumable: 0
     factionEntityRequirements: []
     missingRequirementData:
       icon: {fileID: 21300000, guid: 18a2dfd9bb332b141844d0fcd227f24a, type: 3}
@@ -170,7 +187,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 1
+    y: 0
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -407,7 +424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 2
+    y: 0
   _name: Lum_barak1
   code: Lum_barak1
   category: Lum_Barak
@@ -434,7 +451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 0
+    y: 2
   maxHealth: 1000
   initialHealth: 1
   canIncrease: 1

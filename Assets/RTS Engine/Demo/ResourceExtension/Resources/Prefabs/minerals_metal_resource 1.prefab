@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4181475909268206076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1777024069808378, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_Name
+      value: minerals_metal_resource 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -96.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -40.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -103.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474928896328880, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093271303909552, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: code
+      value: minerals_metal (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093271303909552, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: tabID.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093271303909552, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: category
+      value: EnergyResourseCategory
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093271303909552, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: autoCollect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114093271303909552, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: resourceType
+      value: 
+      objectReference: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+    - target: {fileID: 114093271303909552, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}
+      propertyPath: canCollectOutsideBorder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8d319f6f5e1ec34d84b44d04a7d6a64, type: 3}

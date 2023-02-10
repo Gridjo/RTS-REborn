@@ -238,6 +238,7 @@ namespace RTSEngine.EntityComponent
 
         public override ErrorMessage IsTargetValid (TargetData<IEntity> testTarget, bool playerCommand)
         {
+            
             TargetData<IResource> potentialTarget = testTarget;
 
             if (!potentialTarget.instance.IsValid())

@@ -606,6 +606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5136491649379446403}
   - component: {fileID: 5239740256623429060}
+  - component: {fileID: 9216278916833526600}
   m_Layer: 0
   m_Name: unit_components
   m_TagString: Untagged
@@ -688,7 +689,12 @@ MonoBehaviour:
   creationTasks:
   - taskTitle: 'Place Building: Lum_barak1'
     taskUI: {fileID: 11400000, guid: d345978cff3c21849bb045a67ef5251f, type: 2}
-    requiredResources: []
+    requiredResources:
+    - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+      value:
+        amount: 100
+        capacity: 0
+      nonConsumable: 0
     factionEntityRequirements: []
     missingRequirementData:
       icon: {fileID: 21300000, guid: 18a2dfd9bb332b141844d0fcd227f24a, type: 3}
@@ -701,6 +707,80 @@ MonoBehaviour:
     cooldown:
       enabled: 1
       defaultValue: 2
+--- !u!114 &9216278916833526600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8900547790358302976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b611935c044ac3479865dddaa61c62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: Resourse_Cokectors
+  isActive: 1
+  tabID:
+    x: 1
+    y: 1
+  priority: 2
+  requireIdleEntity: 1
+  targetFinderData:
+    enabled: 1
+    reloadTime: 5
+    range: 10
+    idleOnly: 1
+  setTargetTaskUI: {fileID: 11400000, guid: 4cdd4057e4567bf4da27ecfda0269d22, type: 2}
+  orderAudio:
+    fetchType: 0
+    items: []
+    cooldown:
+      enabled: 1
+      defaultValue: 2
+  progressEnabledAudio:
+    fetchType: 0
+    items: []
+    cooldown:
+      enabled: 1
+      defaultValue: 2
+  progressOverrideController:
+    fetchType: 0
+    items: []
+  progressDuration: 1
+  progressMaxDistance: 0.2
+  inProgressObject:
+    status: 0
+    obj: {fileID: 0}
+    indexKey: 0
+    entity: {fileID: 0}
+  sourceEffect:
+    input: {fileID: 0}
+  targetEffect:
+    input: {fileID: 0}
+  collectableResources:
+  - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+    amount: 100
+    animatorOverrideController:
+      fetchType: 0
+      items: []
+    enableObject:
+      status: 0
+      obj: {fileID: 0}
+      indexKey: 0
+      entity: {fileID: 0}
+    enableAudio:
+      fetchType: 0
+      items: []
+      cooldown:
+        enabled: 0
+        defaultValue: 0
+    sourceEffect:
+      input: {fileID: 849579911967195874, guid: b343f8fb81a676b47adaf6c6f64c1989, type: 3}
+    targetEffect:
+      input: {fileID: 0}
+  onTargetResourceFullSearch: 1
+  onTargetResourceDepletedSearch: 1
 --- !u!1001 &578031620806621268
 PrefabInstance:
   m_ObjectHideFlags: 0
