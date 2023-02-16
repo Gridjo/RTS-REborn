@@ -1430,6 +1430,27 @@ MonoBehaviour:
       input: {fileID: 0}
     targetEffect:
       input: {fileID: 0}
+  - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+    amount: 1
+    animatorOverrideController:
+      fetchType: 0
+      items:
+      - {fileID: 22100000, guid: c80701de95efabe44b42a6f406ce4107, type: 2}
+    enableObject:
+      status: 0
+      obj: {fileID: 0}
+      indexKey: -1
+      entity: {fileID: 0}
+    enableAudio:
+      fetchType: 0
+      items: []
+      cooldown:
+        enabled: 1
+        defaultValue: 2
+    sourceEffect:
+      input: {fileID: 0}
+    targetEffect:
+      input: {fileID: 0}
   onTargetResourceFullSearch: 1
   onTargetResourceDepletedSearch: 1
 --- !u!114 &4021130262081670003
@@ -1447,7 +1468,7 @@ MonoBehaviour:
   code: dropoff_source_component
   isActive: 1
   tabID:
-    x: 0
+    x: 1
     y: 0
   priority: 2
   requireIdleEntity: 0
@@ -1514,6 +1535,27 @@ MonoBehaviour:
     targetEffect:
       input: {fileID: 0}
   - type: {fileID: 11400000, guid: a3e40a20a0b603d4793ed1985b005aed, type: 2}
+    amount: 10
+    animatorOverrideController:
+      fetchType: 0
+      items:
+      - {fileID: 22100000, guid: c6eb86904b4d5cc4aa05a40c0907040f, type: 2}
+    enableObject:
+      status: 1
+      obj: {fileID: 7374656166284838846}
+      indexKey: 1
+      entity: {fileID: 114993838964213816}
+    enableAudio:
+      fetchType: 0
+      items: []
+      cooldown:
+        enabled: 1
+        defaultValue: 2
+    sourceEffect:
+      input: {fileID: 0}
+    targetEffect:
+      input: {fileID: 0}
+  - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
     amount: 10
     animatorOverrideController:
       fetchType: 0

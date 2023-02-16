@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RTS Engine/Demo/Scenes/demo_map/demo_map.unity
     guid: 70ccd3f32288ddd48acf5335588ccbad
+  - enabled: 1
+    path: Assets/new map/map_first/map_new2.unity
+    guid: a9a764e4ef44caa40a81995dc9a07f86
   m_configObjects: {}
