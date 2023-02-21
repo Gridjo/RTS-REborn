@@ -30,12 +30,12 @@ namespace RTSEngine.Health
         public abstract EntityType EntityType { get; }
 
         [SerializeField, Tooltip("Maximum health points that the entity can have."), Min(1)]
-        private int maxHealth = 100;
+        public int maxHealth = 100;
         public int MaxHealth => maxHealth;
 
         public int CurrHealth { private set; get; } = 0;
         [SerializeField, Tooltip("Initial health points that the entity starts with."), Min(1)]
-        private int initialHealth = 1;
+        public int initialHealth = 1;
 
         //This is not accounted for when testing whehter health value can be added or not using the CanAdd method.
         //This simply allows to not update the actual CurrHealth value while at the same time trigger the primitive methods in AddLocal using the input "args.Value"

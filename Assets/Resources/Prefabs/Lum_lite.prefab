@@ -141,7 +141,7 @@ MonoBehaviour:
     enabled: 1
     reloadTime: 3
     range: 15
-    idleOnly: 1
+    idleOnly: 0
   setTargetTaskUI: {fileID: 0}
   orderAudio:
     fetchType: 0
@@ -300,7 +300,7 @@ MonoBehaviour:
         - name: spacing
           value: 0
         intProperties: []
-  moveOnAttack: 0
+  moveOnAttack: 1
   followDistance: 20
   attackMoveEnabled: 1
   attackMoveTaskUI: {fileID: 0}

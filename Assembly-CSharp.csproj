@@ -213,6 +213,7 @@
     <Compile Include="Assets\RTS Engine\Core\Scripts\Faction\FactionSlotRole.cs" />
     <Compile Include="Assets\RTS Engine\Modules\BasicNPC\Scripts\NPC\BuildingExtension\INPCBuildingConstructor.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Attack\AttackTargetPicker.cs" />
+    <Compile Include="Assets\Сonstructor\ScriptConstruct\newReEditScript.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Model\IEntityModel.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Event\UnitCarrierEventArgs.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Movement\RowMovementFormationHandler.cs" />
