@@ -16,7 +16,7 @@ namespace RTSEngine.EntityComponent
     {
         #region Class Attributes
         [SerializeField, Tooltip("List of unit creation tasks that can be launched through this component.")]
-        private List<UnitCreationTask> creationTasks = new List<UnitCreationTask>();
+        public List<UnitCreationTask> creationTasks = new List<UnitCreationTask>();
         private List<UnitCreationTask> allCreationTasks;
         public override IReadOnlyList<IEntityComponentTaskInput> Tasks => allCreationTasks;
 

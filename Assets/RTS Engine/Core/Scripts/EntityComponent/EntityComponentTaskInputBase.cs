@@ -30,7 +30,7 @@ namespace RTSEngine.EntityComponent
         public EntityComponentTaskUIData Data => taskUI.Data;
 
         [Space(), SerializeField, Tooltip("Resources required to launch the task.")]
-        protected ResourceInput[] requiredResources = new ResourceInput[0];
+        public ResourceInput[] requiredResources = new ResourceInput[0];
         public IEnumerable<ResourceInput> RequiredResources => requiredResources.ToList();
 
         [Space(), SerializeField, Tooltip("Input the faction units/buildings required to create this faction entity.")]

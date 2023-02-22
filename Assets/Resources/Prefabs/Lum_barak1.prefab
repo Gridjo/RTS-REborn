@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 351892809}
   - component: {fileID: 954259077416612381}
   - component: {fileID: 7951843844357797649}
+  - component: {fileID: 3013304179828302263}
   m_Layer: 0
   m_Name: building_components
   m_TagString: Untagged
@@ -216,6 +217,32 @@ MonoBehaviour:
   maxDistance: 50
   repositionToValidTerrainArea: 1
   repositionSize: 1
+--- !u!114 &3013304179828302263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351892807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edba049148444c549840daed815c5230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIBar: {fileID: 0}
+  GameManager: {fileID: 0}
+  energyCountText: {fileID: 0}
+  heetPointCountText: {fileID: 0}
+  heetPointSlider: {fileID: 0}
+  DamageUnitCountText: {fileID: 0}
+  DamageUnitSlider: {fileID: 0}
+  DamageBuildingCountText: {fileID: 0}
+  DamageBuildingSlider: {fileID: 0}
+  prefabhp: {fileID: 0}
+  energyCount: 0
+  maxHeetPoint: 0
+  DamageUnitCount: 0
+  DamageBuildingCount: 0
 --- !u!1 &738607884
 GameObject:
   m_ObjectHideFlags: 0

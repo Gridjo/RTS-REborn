@@ -19,7 +19,7 @@ namespace RTSEngine.EntityComponent
         private IUnit unit;
 
         [SerializeField, Tooltip("Defines the unit's stopping distance and movement formation when engaging in an attack.")]
-        private AttackFormationSelector formation = new AttackFormationSelector();
+        public AttackFormationSelector formation = new AttackFormationSelector();
         public override AttackFormationSelector Formation => formation;
 
         [SerializeField, Tooltip("Enable to allow the unit to engage its target while moving.")]

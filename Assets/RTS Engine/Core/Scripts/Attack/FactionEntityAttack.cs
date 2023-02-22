@@ -67,7 +67,7 @@ namespace RTSEngine.EntityComponent
 
         // TIME
         [SerializeField, Tooltip("Reload time between two consecutive attack iterations.")]
-        private float reloadDuration = 3.0f;
+        public float reloadDuration = 3.0f;
         protected TimeModifiedTimer reloadTimer;
 
         [SerializeField, Tooltip("If enabled, then another component must call the 'TriggerAttack()' method to trigger the attack launch.")]
@@ -85,7 +85,7 @@ namespace RTSEngine.EntityComponent
 
         // DAMAGE
         [SerializeField, Tooltip("Settings for the attack's damage effect.")]
-        private AttackDamage damage = new AttackDamage();
+        public AttackDamage damage = new AttackDamage();
         public AttackDamage Damage => damage;
 
         // WEAPON

@@ -134,7 +134,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 0
+    y: 2
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -218,8 +218,8 @@ MonoBehaviour:
   damage:
     enabled: 1
     data:
-      unit: 10
-      building: 10
+      unit: 15
+      building: 15
       custom: []
     areaAttackEnabled: 0
     areaAttackData:
@@ -228,7 +228,7 @@ MonoBehaviour:
         unit: 0
         building: 0
         custom: []
-    dotEnabled: 1
+    dotEnabled: 0
     dotData:
       infinite: 0
       cycleDuration: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 0
+    y: 1
   _name: Lum_lite
   code: Lum_lite
   category: Lum_Unit
@@ -680,8 +680,8 @@ MonoBehaviour:
   code: movement
   isActive: 1
   tabID:
-    x: 0
-    y: 1
+    x: 1
+    y: 0
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -716,7 +716,7 @@ MonoBehaviour:
   speed:
     value: 10
   acceleration:
-    value: 10
+    value: 999
   mvtAngularSpeed:
     value: 999
   canMoveRotate: 1

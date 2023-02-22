@@ -78,9 +78,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   code: attackObjectCodeFirstTry
   tabID:
-    x: 1
-    y: 0
-  enableLifeTime: 1
+    x: 0
+    y: 1
+  enableLifeTime: 0
   defaultLifeTime: 3
   disableTime: 1
   spawnPositionOffset: {x: 0, y: 0, z: 0}
@@ -92,7 +92,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   mainMvtCurve:
-    minDistance: 5
+    minDistance: 2525
     maxHeightDifference: 2
     curve:
       serializedVersion: 2
@@ -120,7 +120,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     heightMultiplier: 1
   altMvtCurve:
-    minDistance: 5
+    minDistance: 2525
     maxHeightDifference: 2
     curve:
       serializedVersion: 2
