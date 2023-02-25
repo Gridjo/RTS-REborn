@@ -620,6 +620,7 @@
     <Compile Include="Assets\RTS Engine\Modules\Multiplayer\Scripts\Service\IMultiplayerService.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Determinism\InputMode.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Audio\AudioData.cs" />
+    <Compile Include="Assets\Сonstructor\ScriptConstruct\HeelthRestore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

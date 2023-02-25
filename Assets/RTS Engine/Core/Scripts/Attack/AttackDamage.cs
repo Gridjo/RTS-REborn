@@ -165,10 +165,18 @@ namespace RTSEngine.Attack
                     break;
                 }
 
-            if (dotEnabled == true) 
+            if (dotEnabled == true)
                 target.Health.AddDamageOverTime(dotData, value, SourceAttackComp.Entity);
             else
-                target.Health.Add(new HealthUpdateArgs(-value, SourceAttackComp.Entity));
+            {
+                Debug.LogError("Atttack");
+                Debug.LogError(value);
+                Debug.LogError("Atttack34");
+                Debug.LogError( - value * (1 - (target.Health.Armor / 100)));
+                Debug.LogError("Atttack344");
+                Debug.LogError(target.Health.Armor);
+                target.Health.Add(new HealthUpdateArgs((int)(-(int)(value * (1 - (target.Health.Armor / 100)))), SourceAttackComp.Entity));
+            }
 
             // If this is a new target to deal damage to and the damage dealt is only logged for a single target
             if (resetDamageDealt && target != LastTarget)

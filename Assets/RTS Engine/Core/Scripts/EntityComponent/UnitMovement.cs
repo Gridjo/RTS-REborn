@@ -63,7 +63,7 @@ namespace RTSEngine.EntityComponent
         public Vector3 Destination => Controller.Destination;
 
         [SerializeField, Tooltip("Default movement speed.")]
-        private TimeModifiedFloat speed = new TimeModifiedFloat(10.0f);
+        public TimeModifiedFloat speed = new TimeModifiedFloat(10.0f);
 
         [SerializeField, Tooltip("How fast will the unit reach its movement speed?")]
         private TimeModifiedFloat acceleration = new TimeModifiedFloat(10.0f);

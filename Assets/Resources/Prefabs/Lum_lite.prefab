@@ -134,7 +134,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 2
+    y: 0
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -193,7 +193,7 @@ MonoBehaviour:
     enabled: 0
     defaultValue: 1
   launcher:
-    useAttackObjects: 1
+    useAttackObjects: 0
     launchType: 1
     sources:
     - attackObject:
@@ -281,11 +281,11 @@ MonoBehaviour:
       m_Calls: []
   formation:
     unitStoppingDistance:
-      _min: 3
-      _max: 10
+      _min: 1
+      _max: 2
     buildingStoppingDistance:
-      _min: 3
-      _max: 10
+      _min: 1
+      _max: 2
     noTargetStoppingDistance:
       _min: 0
       _max: 1
@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: 6931293187596894474}
   - component: {fileID: 2545126738683374202}
   - component: {fileID: 3303585410587270998}
+  - component: {fileID: 6272262984289469849}
   m_Layer: 0
   m_Name: Lum_lite
   m_TagString: Untagged
@@ -579,6 +580,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 5
   m_ObstacleAvoidanceType: 0
+--- !u!114 &6272262984289469849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177951697046469026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd595f3c5d9cdef488e7438f01f02136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restoreInSec: 0
 --- !u!1 &5102502007976246656
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +871,7 @@ GameObject:
   - component: {fileID: 5239740256623429060}
   - component: {fileID: 9216278916833526600}
   - component: {fileID: 2420722253139903341}
+  - component: {fileID: 5518003973911257539}
   m_Layer: 0
   m_Name: unit_components
   m_TagString: Untagged
@@ -1092,6 +1107,68 @@ MonoBehaviour:
       input: {fileID: 0}
   totalMaxCapacity: 50
   dropOffOnTargetAvailable: 0
+--- !u!114 &5518003973911257539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8900547790358302976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904a3fd002316b34f89e70e0b37a8717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: comp_code
+  isActive: 1
+  tabID:
+    x: 0
+    y: 0
+  priority: 0
+  requireIdleEntity: 1
+  targetFinderData:
+    enabled: 0
+    reloadTime: 5
+    range: 10
+    idleOnly: 1
+  setTargetTaskUI: {fileID: 0}
+  orderAudio:
+    fetchType: 0
+    items: []
+    cooldown:
+      enabled: 1
+      defaultValue: 2
+  progressEnabledAudio:
+    fetchType: 0
+    items: []
+    cooldown:
+      enabled: 1
+      defaultValue: 2
+  progressOverrideController:
+    fetchType: 0
+    items: []
+  progressDuration: 1
+  progressMaxDistance: 1
+  inProgressObject:
+    status: 0
+    obj: {fileID: 0}
+    indexKey: 0
+    entity: {fileID: 0}
+  sourceEffect:
+    input: {fileID: 0}
+  targetEffect:
+    input: {fileID: 0}
+  stoppingDistance: 5
+  healthPerProgress: 5
+  targetPicker:
+    type: 0
+    options:
+      codes: []
+      categories: []
+    targetUnits: 1
+    targetExternal: 1
+    targetStored: 1
+    targetBuildings: 1
 --- !u!1001 &578031620806621268
 PrefabInstance:
   m_ObjectHideFlags: 0

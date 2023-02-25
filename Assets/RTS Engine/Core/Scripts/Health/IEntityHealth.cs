@@ -19,7 +19,7 @@ namespace RTSEngine.Health
         bool HasMaxHealth { get; }
         float HealthRatio { get; }
         float HoverHealthBarY { get; }
-
+        int Armor { get; set; }
         // WARNING: Make sure that changing these values is locally synced.
         bool CanIncrease { get; set; }
         bool CanDecrease { get; set; }

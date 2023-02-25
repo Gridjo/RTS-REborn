@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Grid.Construct.newReEditScript
+    - Grid.Restore.HeelthRestore
     - RTSEngine.Animation.StateMachineController
     - RTSEngine.Animation.UnitAnimatorController
     - RTSEngine.Attack.AttackManager
@@ -159,7 +161,6 @@ ScriptsOnlyBuild:
     - RTSEngine.Upgrades.EntityComponentUpgradeManager
     - RTSEngine.Upgrades.EntityUpgrade
     - RTSEngine.Upgrades.EntityUpgradeManager
-    - newReEditScript
     Mirror.Components.dll:
     - Mirror.Discovery.NetworkDiscovery
     - Mirror.NetworkPingDisplay
@@ -551,9 +552,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 222942}
+      Script: {instanceID: 60690}
     - Class: 114
-      Script: {instanceID: 222946}
+      Script: {instanceID: 163066}
+    - Class: 114
+      Script: {instanceID: 163070}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -944,17 +947,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 248754}
+      Script: {instanceID: 189374}
     - Class: 114
-      Script: {instanceID: 249278}
+      Script: {instanceID: 189918}
     - Class: 114
-      Script: {instanceID: 249280}
+      Script: {instanceID: 189920}
     - Class: 114
-      Script: {instanceID: 249282}
+      Script: {instanceID: 189922}
     - Class: 114
-      Script: {instanceID: 249284}
+      Script: {instanceID: 189924}
     - Class: 114
-      Script: {instanceID: 249354}
+      Script: {instanceID: 189994}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1966,6 +1969,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6330}
     - Class: 114
       Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 60690}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2611,9 +2616,9 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 8138c2cbf5e02d9463d6d4594e970fd5
+      Hash: 58fec35d8ae1654fff25549b7dddc702
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: Grid.Construct
     className: newReEditScript
   - hash:
       serializedVersion: 2
@@ -4187,6 +4192,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: RTSEngine.NPC.Event
     className: NPCEventPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 249209785370c90df7095eac4b74ce16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Grid.Restore
+    className: HeelthRestore
   platform: 19
   scenePathNames:
   - Assets/RTS Engine/Demo/Menu/MainMenu.unity
@@ -4196,4 +4207,4 @@ ScriptsOnlyBuild:
   - Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerLobbyMenu_Mirror.unity
   - Assets/RTS Engine/Demo/Scenes/demo_map/demo_map.unity
   - Assets/new map/map_first/map_new2.unity
-  playerPath: D:/build6.2/My project (1).exe
+  playerPath: D:/build6.3/My project (1).exe

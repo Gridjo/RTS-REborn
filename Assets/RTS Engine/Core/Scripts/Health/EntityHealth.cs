@@ -32,8 +32,9 @@ namespace RTSEngine.Health
         [SerializeField, Tooltip("Maximum health points that the entity can have."), Min(1)]
         public int maxHealth = 100;
         public int MaxHealth => maxHealth;
-
-        public int CurrHealth { private set; get; } = 0;
+        [SerializeField]
+        public int Armor { set; get; } = 1;
+        public int CurrHealth { set; get; } = 0;
         [SerializeField, Tooltip("Initial health points that the entity starts with."), Min(1)]
         public int initialHealth = 1;
 
