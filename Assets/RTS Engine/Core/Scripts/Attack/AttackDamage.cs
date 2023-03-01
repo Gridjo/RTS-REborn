@@ -169,12 +169,7 @@ namespace RTSEngine.Attack
                 target.Health.AddDamageOverTime(dotData, value, SourceAttackComp.Entity);
             else
             {
-                Debug.LogError("Atttack");
-                Debug.LogError(value);
-                Debug.LogError("Atttack34");
-                Debug.LogError( - value * (1 - (target.Health.Armor / 100)));
-                Debug.LogError("Atttack344");
-                Debug.LogError(target.Health.Armor);
+                
                 target.Health.Add(new HealthUpdateArgs((int)(-(int)(value * (1 - (target.Health.Armor / 100)))), SourceAttackComp.Entity));
             }
 

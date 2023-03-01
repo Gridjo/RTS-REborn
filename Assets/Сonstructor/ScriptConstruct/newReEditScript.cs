@@ -12,6 +12,7 @@ using RTSEngine.Determinism;
 using RTSEngine.Health;
 using RTSEngine.EntityComponent;
 using Grid.Restore;
+using System;
 
 namespace Grid.Construct
 {
@@ -24,6 +25,8 @@ namespace Grid.Construct
         public GameObject UIBar;
         public GameObject GameManager;
 
+        //
+        public GameObject Flag;
 
         //количество эергии текст
         public Text energyCountText;
@@ -130,11 +133,12 @@ namespace Grid.Construct
         //ОБНОВЛЕНИЕ UI МЕНЮ
         public void UpdateUI()
         {
-            if (energyCount > 500)
+            CalculateEnergy();
+            if (energyCount > 500 || energyCount <= 0)
             {
                 energyCountText.color = new Color(255f, 0f, 0f);
             }
-            if (energyCount <= 500)
+            if (energyCount <= 500 && energyCount > 0)
             {
                 energyCountText.color = new Color(208f, 208f, 208f);
             }
@@ -192,12 +196,30 @@ namespace Grid.Construct
             plaseholderInt = 0;
         }
 
+        /*public int GetDigit(int x, int digitNumber)
+        {
+            if (digitNumber < 0)
+                throw new ArgumentOutOfRangeException("digitNumber");
 
+            int digitCount = (int)Math.Log10(x) + 1;
+            if (digitNumber > digitCount)
+                return 1;
+
+            var pow = (int)Math.Pow(10, digitCount - digitNumber);
+            return (x / pow) % 10 + 1;
+        }*/
         //Расчет стоимости энергии
         public void CalculateEnergy()
         {
             energyCount = 0;
-            energyCount = maxHeetPoint + (DamageBuildingCount * 2) + (DamageUnitCount * 2);
+            energyCount += maxHeetPoint * (int)((maxHeetPoint / 100) + 1);
+            energyCount += DamageUnitCount * (int)((DamageUnitCount / 100) + 1); 
+            energyCount += DamageBuildingCount * (int)((DamageBuildingCount / 100) + 1);
+            energyCount -= (int)((int)AttackSpeedCount * (int)AttackSpeedCount);
+            energyCount += (int)(((int)AttackDistanceCount * (int)AttackDistanceCount) / 2);
+            energyCount += (int)(((int)UnitSpeedCount * (int)UnitSpeedCount) / 2);
+            energyCount += Armor * Armor;
+            energyCount += restoreInsec * restoreInsec;
         }
 
 
@@ -211,6 +233,7 @@ namespace Grid.Construct
 
         public void Start()
         {
+            
             CalculateEnergy();
             FindGameObjects();
 
@@ -249,6 +272,12 @@ namespace Grid.Construct
 
         public void Update()
         {
+            if (Flag.activeSelf)
+            {
+                UIBar.SetActive(true);
+            }
+
+            
 
             //для примера по кнопке "стрелочка вверх"
             if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -258,6 +287,7 @@ namespace Grid.Construct
                 HeetPoint();
                 Damage();
                 UnitSpeed();
+                Relise();
                 Debug.Log("KeyDown");
             }
         }
@@ -267,7 +297,7 @@ namespace Grid.Construct
         public void Relise()
         {
 
-            if (energyCount > 500)
+            if (energyCount > 500 || energyCount <= 0)
             {
                 return;
             }
@@ -282,7 +312,7 @@ namespace Grid.Construct
             AttackDistanceCount = AttackDistanceSlider.value;
 
             AttackSpeedCount = AttackSpeedSlider.value;
-            Armor =(int) ArmorSlider.value;
+            Armor = (int)ArmorSlider.value;
 
             CalculateEnergy();
 
@@ -294,6 +324,7 @@ namespace Grid.Construct
             UnitSpeed();
             addRestore();
             Armorr();
+            UIBar.SetActive(false);
 
         }
 
@@ -301,6 +332,7 @@ namespace Grid.Construct
         //поиск 
         public void FindGameObjects()
         {
+            Flag = gameObject.transform.GetChild(2).gameObject;
             UIBar = GameObject.Find("UnitCreator");
             GameManager = GameObject.Find("GameManager");
         }

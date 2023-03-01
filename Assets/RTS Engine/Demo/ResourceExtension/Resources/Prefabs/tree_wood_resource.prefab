@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &6061229466149561389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +151,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -174,6 +177,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1633965520044808
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,9 +238,10 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 0b0cd6fb1fb6fb54d892c5c0c6da0353, type: 3}
   radius: 1
   model: {fileID: 3820744554284783702}
-  resourceType: {fileID: 11400000, guid: a3e40a20a0b603d4793ed1985b005aed, type: 2}
+  resourceType: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
   canCollect: 1
-  canCollectOutsideBorder: 0
+  canCollectOutsideBorder: 1
+  autoCollect: 1
   collectionAudio:
     fetchType: 0
     items:
@@ -267,11 +272,6 @@ MonoBehaviour:
   hoverHealthBarY: 3.5
   hitEffect:
     input: {fileID: 0}
-    parent:
-      status: 0
-      obj: {fileID: 0}
-      indexKey: -1
-      entity: {fileID: 0}
   hitAudio:
     fetchType: 0
     items: []
@@ -289,12 +289,16 @@ MonoBehaviour:
       defaultValue: 2
   destructionEffect:
     input: {fileID: 0}
-    parent:
-      status: 0
-      obj: {fileID: 0}
-      indexKey: -1
-      entity: {fileID: 0}
   states: []
+  destroyState:
+    healthRange:
+      _min: 0
+      _max: 100
+    showChildObjects: []
+    hideChildObjects: []
+    triggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
   collectedState:
     healthRange:
       _min: 0
@@ -448,6 +452,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -473,6 +478,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2396183950364595591
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +644,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -663,6 +670,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5053829668148078434
 GameObject:
   m_ObjectHideFlags: 0

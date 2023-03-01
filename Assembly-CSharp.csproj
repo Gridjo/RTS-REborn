@@ -126,6 +126,7 @@
     <Compile Include="Assets\RTS Engine\Core\Scripts\EntityComponent\FactionEntityTargetProgressComponent.cs" />
     <Compile Include="Assets\RTS Engine\Modules\BasicUI\Scripts\UI\MultipleSelectionTaskPanelUIHandler.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\EntityComponent\IResourceGenerator.cs" />
+    <Compile Include="Assets\Сonstructor\ScriptConstruct\HeelthRestore.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Faction\FactionEntityAmountLimit.cs" />
     <Compile Include="Assets\Сonstructor\ScriptConstruct\ScriptAbilities\HypnosisAbilities.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Effect\EffectObjectState.cs" />
@@ -620,7 +621,6 @@
     <Compile Include="Assets\RTS Engine\Modules\Multiplayer\Scripts\Service\IMultiplayerService.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Determinism\InputMode.cs" />
     <Compile Include="Assets\RTS Engine\Core\Scripts\Audio\AudioData.cs" />
-    <Compile Include="Assets\Сonstructor\ScriptConstruct\HeelthRestore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

@@ -134,7 +134,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 0
+    y: 1
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -193,7 +193,7 @@ MonoBehaviour:
     enabled: 0
     defaultValue: 1
   launcher:
-    useAttackObjects: 0
+    useAttackObjects: 1
     launchType: 1
     sources:
     - attackObject:
@@ -281,8 +281,8 @@ MonoBehaviour:
       m_Calls: []
   formation:
     unitStoppingDistance:
-      _min: 1
-      _max: 2
+      _min: 6
+      _max: 10
     buildingStoppingDistance:
       _min: 1
       _max: 2
@@ -987,8 +987,8 @@ MonoBehaviour:
   code: Resourse_Cokectors
   isActive: 1
   tabID:
-    x: 0
-    y: 0
+    x: 1
+    y: 1
   priority: 3
   requireIdleEntity: 1
   targetFinderData:
@@ -1024,6 +1024,26 @@ MonoBehaviour:
   targetEffect:
     input: {fileID: 0}
   collectableResources:
+  - type: {fileID: 11400000, guid: 289f2d92dd5497e4e99f9d0a656207e0, type: 2}
+    amount: 5
+    animatorOverrideController:
+      fetchType: 0
+      items: []
+    enableObject:
+      status: 0
+      obj: {fileID: 0}
+      indexKey: 0
+      entity: {fileID: 0}
+    enableAudio:
+      fetchType: 0
+      items: []
+      cooldown:
+        enabled: 0
+        defaultValue: 0
+    sourceEffect:
+      input: {fileID: 849579911967195874, guid: b343f8fb81a676b47adaf6c6f64c1989, type: 3}
+    targetEffect:
+      input: {fileID: 0}
   - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
     amount: 5
     animatorOverrideController:
