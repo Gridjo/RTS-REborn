@@ -554,9 +554,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6344}
     - Class: 114
-      Script: {instanceID: 134140}
+      Script: {instanceID: 33970}
     - Class: 114
-      Script: {instanceID: 134142}
+      Script: {instanceID: 33974}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -957,7 +957,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6344}
     - Class: 114
-      Script: {instanceID: 41484}
+      Script: {instanceID: 61648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -4209,4 +4209,4 @@ ScriptsOnlyBuild:
   - Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerLobbyMenu_Mirror.unity
   - Assets/RTS Engine/Demo/Scenes/demo_map/demo_map.unity
   - Assets/new map/map_first/map_new2.unity
-  playerPath: D:/build8/My project (1).exe
+  playerPath: D:/build10/My project (1).exe

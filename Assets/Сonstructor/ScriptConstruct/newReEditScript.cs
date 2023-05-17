@@ -134,14 +134,29 @@ namespace Grid.Construct
         public void UpdateUI()
         {
             CalculateEnergy();
-            if (energyCount > 500 || energyCount <= 0)
-            {
-                energyCountText.color = new Color(255f, 0f, 0f);
-            }
-            if (energyCount <= 500 && energyCount > 0)
-            {
-                energyCountText.color = new Color(208f, 208f, 208f);
-            }
+          //  if (this.transform.parent.GetChild(4).gameObject.name == "barack_1_b")
+            //{
+                if (energyCount > 500 || energyCount <= 0)
+                {
+                    energyCountText.color = new Color(255f, 0f, 0f);
+                }
+                if (energyCount <= 500 && energyCount > 0)
+                {
+                    energyCountText.color = new Color(208f, 208f, 208f);
+                }
+           // }
+           // if (this.transform.parent.GetChild(4).gameObject.name == "barack_2_b")
+           // {
+                if (energyCount > 500 || energyCount <= 0)
+                {
+                    energyCountText.color = new Color(255f, 0f, 0f);
+                }
+                if (energyCount <= 500 && energyCount > 0)
+                {
+                    energyCountText.color = new Color(208f, 208f, 208f);
+                }
+          //  }
+
             maxHeetPoint = (int)heetPointSlider.value;
 
             DamageUnitCount = (int)DamageUnitSlider.value;
@@ -297,10 +312,17 @@ namespace Grid.Construct
         public void Relise()
         {
 
-            if (energyCount > 500 || energyCount <= 0)
+           // if (this.transform.parent.GetChild(4).gameObject.name == "barack_1_b")
+           // {
+                if (energyCount > 500 || energyCount <= 0)
+                {
+                    return;
+                }
+           // }
+            /*if (energyCount > 500 || energyCount <= 0)
             {
                 return;
-            }
+            }*/
             FindLumfirst();
 
             maxHeetPoint = (int)heetPointSlider.value;

@@ -231,18 +231,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIBar: {fileID: 0}
   GameManager: {fileID: 0}
+  Flag: {fileID: 0}
   energyCountText: {fileID: 0}
   heetPointCountText: {fileID: 0}
   heetPointSlider: {fileID: 0}
+  maxHeetPoint: 0
   DamageUnitCountText: {fileID: 0}
   DamageUnitSlider: {fileID: 0}
+  DamageUnitCount: 0
   DamageBuildingCountText: {fileID: 0}
   DamageBuildingSlider: {fileID: 0}
+  DamageBuildingCount: 0
+  Submit: {fileID: 0}
   prefabhp: {fileID: 0}
   energyCount: 0
-  maxHeetPoint: 0
-  DamageUnitCount: 0
-  DamageBuildingCount: 0
+  AttackSpeedText: {fileID: 0}
+  AttackSpeedSlider: {fileID: 0}
+  AttackSpeedCount: 0
+  AttackDistanceText: {fileID: 0}
+  AttackDistanceSlider: {fileID: 0}
+  AttackDistanceCount: 0
+  ProjectileAttackSpeedText: {fileID: 0}
+  ProjectileAttackSpeedSlider: {fileID: 0}
+  ProjectileAttackSpeedCount: 0
+  UnitSpeedText: {fileID: 0}
+  UnitSpeedSlider: {fileID: 0}
+  UnitSpeedCount: 0
+  plaseholderInt: 0
+  Armor: 0
+  ArmorText: {fileID: 0}
+  ArmorSlider: {fileID: 0}
+  restoreInsec: 0
+  RestoreBool: 0
+  restoreInsecSlider: {fileID: 0}
+  restoreInsecText: {fileID: 0}
 --- !u!1 &738607884
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,12 +474,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tabID:
     x: 0
-    y: 1
+    y: 0
   _name: Lum_barak1
   code: Lum_barak1
-  category: Lum_Barak
+  category: Lum_barak
   description: new_building_description
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: baa199f40967f8f4497a527412223a41, type: 3}
   radius: 5.31
   model: {fileID: 5488022950105152625}
   isMainEntity: 1

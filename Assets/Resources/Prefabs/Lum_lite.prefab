@@ -908,8 +908,8 @@ MonoBehaviour:
   code: buildercoderen
   isActive: 1
   tabID:
-    x: 0
-    y: 0
+    x: 1
+    y: 1
   priority: 0
   requireIdleEntity: 1
   targetFinderData:
@@ -962,9 +962,48 @@ MonoBehaviour:
       nonConsumable: 0
     factionEntityRequirements: []
     missingRequirementData:
-      icon: {fileID: 21300000, guid: 18a2dfd9bb332b141844d0fcd227f24a, type: 3}
+      icon: {fileID: 21300000, guid: baa199f40967f8f4497a527412223a41, type: 3}
       color: {r: 0, g: 0, b: 0, a: 0}
     prefabObject: {fileID: 1821550020, guid: 29e1d5c7e45b8c9428562e0d0c3a1a61, type: 3}
+  - taskTitle: 'Place Building: Lum_barak2'
+    taskUI: {fileID: 11400000, guid: 6ef72824093f0ad4c8261ffff31c14a8, type: 2}
+    requiredResources:
+    - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+      value:
+        amount: 200
+        capacity: 0
+      nonConsumable: 0
+    factionEntityRequirements: []
+    missingRequirementData:
+      icon: {fileID: 21300000, guid: 18a2dfd9bb332b141844d0fcd227f24a, type: 3}
+      color: {r: 0, g: 0, b: 0, a: 0}
+    prefabObject: {fileID: 2807667431718244909, guid: a1b5d5a0ec9e238438ae84fc65b7b6ba, type: 3}
+  - taskTitle: 'Place Building: Lum_barak3'
+    taskUI: {fileID: 11400000, guid: b5d7a126ebd92284a80a1a75f220b3a5, type: 2}
+    requiredResources:
+    - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+      value:
+        amount: 300
+        capacity: 0
+      nonConsumable: 0
+    factionEntityRequirements: []
+    missingRequirementData:
+      icon: {fileID: 21300000, guid: 18a2dfd9bb332b141844d0fcd227f24a, type: 3}
+      color: {r: 0, g: 0, b: 0, a: 0}
+    prefabObject: {fileID: 3554514291051363447, guid: 2d50b82d63074ce42a239be09fd7b23d, type: 3}
+  - taskTitle: 'Place Building: Lum_barak5'
+    taskUI: {fileID: 11400000, guid: 833b38b4745644644bb812055416f919, type: 2}
+    requiredResources:
+    - type: {fileID: 11400000, guid: bb812bd1727001447ba36d4f434f6450, type: 2}
+      value:
+        amount: 500
+        capacity: 0
+      nonConsumable: 0
+    factionEntityRequirements: []
+    missingRequirementData:
+      icon: {fileID: 21300000, guid: 18a2dfd9bb332b141844d0fcd227f24a, type: 3}
+      color: {r: 0, g: 0, b: 0, a: 0}
+    prefabObject: {fileID: 5948627744658072964, guid: b4616a1cbd24fa94f95e1fafb7644d6d, type: 3}
   upgradeTargetCreationTasks: []
   constructionAudio:
     fetchType: 0
@@ -1134,7 +1173,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8900547790358302976}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 904a3fd002316b34f89e70e0b37a8717, type: 3}
   m_Name: 
@@ -1143,7 +1182,7 @@ MonoBehaviour:
   isActive: 1
   tabID:
     x: 0
-    y: 0
+    y: 1
   priority: 0
   requireIdleEntity: 1
   targetFinderData:

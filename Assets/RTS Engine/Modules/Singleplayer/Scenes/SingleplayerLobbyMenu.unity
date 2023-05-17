@@ -3010,8 +3010,8 @@ MonoBehaviour:
   gameCode: 2022.0.0
   maps:
   - sceneName: demo_map
-    name: Demo
-    description: demo
+    name: Riot
+    description: War of annihilation
     factionsAmount:
       _min: 2
       _max: 4

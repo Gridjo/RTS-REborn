@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/RTS Engine/Demo/Menu/MainMenu.unity
+- path: Assets/RTS Engine/Modules/Multiplayer/Mirror/Scenes/MultiplayerLobbyMenu_Mirror.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
